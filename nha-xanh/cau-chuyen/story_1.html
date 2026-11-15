@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Nhà Xanh – Dấu ấn kiến trúc Pháp giữa lòng Biên Hòa | Địa Chỉ Đỏ
+            Đồng Nai
+        </title>
+        <meta
+            name="description"
+            content="Câu chuyện về sự hình thành, kiến trúc và những năm tháng đầu tiên của di tích Nhà Xanh tại Biên Hòa, Đồng Nai."
+        />
+        <meta name="theme-color" content="#54251f" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+            @theme {
+                --color-oxblood: #54251f;
+                --color-brick: #873b32;
+                --color-clay: #a94e3d;
+                --color-umber: #392821;
+                --color-paper: #f5efe5;
+                --color-ivory: #fcf9f3;
+                --color-bronze: #c49a60;
+                --color-star: #e8b64c;
+                --color-kraft: #e9dcc3;
+                --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+                --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
+                --font-serif: "Lora", Georgia, serif;
+            }
+        </style>
+        <style>
+            html {
+                scroll-behavior: smooth;
+                scroll-padding-top: 8rem;
+            }
+            body {
+                background: #f5efe5;
+            }
+            :focus-visible {
+                outline: 3px solid #e8b64c;
+                outline-offset: 3px;
+            }
+            .grain {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .24 0 0 0 0 .14 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            }
+            .rays {
+                background:
+                    repeating-conic-gradient(
+                        from -14deg at 82% 112%,
+                        rgba(255, 240, 200, 0.055) 0 4.5deg,
+                        transparent 4.5deg 9deg
+                    ),
+                    radial-gradient(
+                        120% 95% at 82% 112%,
+                        #873b32 0%,
+                        #54251f 52%,
+                        #331612 100%
+                    );
+            }
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.6rem;
+                font-family: var(--font-display);
+                font-weight: 700;
+                font-size: 1.05rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                padding: 0.75rem 1.4rem;
+                border: 2px solid #392821;
+                box-shadow: 4px 4px 0 #392821;
+                transition: 0.15s;
+                text-align: center;
+            }
+            .btn:hover {
+                transform: translate(-2px, -2px);
+                box-shadow: 6px 6px 0 #392821;
+            }
+            .btn-brick {
+                background: #873b32;
+                color: #fcf9f3;
+            }
+            .btn-paper {
+                background: #fcf9f3;
+                color: #392821;
+            }
+            .card-hard {
+                border: 2px solid #392821;
+                box-shadow: 6px 6px 0 #392821;
+                background: #fcf9f3;
+            }
+            .duo {
+                overflow: hidden;
+                background: #54251f;
+            }
+            .duo img {
+                filter: sepia(0.7) hue-rotate(-25deg) saturate(1.35);
+                transition:
+                    filter 0.5s,
+                    transform 0.7s;
+            }
+            .duo:hover img {
+                filter: none;
+                transform: scale(1.035);
+            }
+            .header-inner {
+                height: 4.6rem;
+                transition: height 0.3s;
+            }
+            #site-header.is-scrolled .header-inner {
+                height: 3.8rem;
+            }
+            #site-header.is-scrolled {
+                box-shadow: 0 8px 0 -4px rgba(0, 0, 0, 0.25);
+            }
+            .dropcap:first-letter {
+                font-family: var(--font-display);
+                font-weight: 800;
+                color: #873b32;
+                float: left;
+                font-size: 5.2rem;
+                line-height: 0.78;
+                padding: 0.35rem 0.6rem 0 0;
+            }
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+                .duo img,
+                .btn {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="grain font-sans text-umber antialiased">
+        <a
+            href="#noi-dung"
+            class="sr-only focus:not-sr-only focus:fixed focus:z-[70] focus:top-2 focus:left-2 focus:bg-ivory focus:text-brick focus:px-4 focus:py-2"
+            >Bỏ qua điều hướng</a
+        >
+        <div
+            id="progress"
+            class="fixed left-0 top-0 z-[60] h-1.5 w-0 bg-star"
+            aria-hidden="true"
+        ></div>
+
+        <header
+            id="site-header"
+            class="fixed inset-x-0 top-0 z-50 border-b-[3px] border-star bg-umber text-ivory"
+        >
+            <div
+                class="header-inner mx-auto flex max-w-7xl items-center justify-between px-5 lg:px-8"
+            >
+                <a
+                    href="../../index.html"
+                    class="inline-flex items-center gap-3"
+                    aria-label="Địa Chỉ Đỏ Đồng Nai, về trang chủ"
+                >
+                    <svg
+                        viewBox="0 0 48 56"
+                        class="h-10 w-auto shrink-0"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M24 54C24 54 6 33 6 20a18 18 0 0 1 36 0c0 13-18 34-18 34Z"
+                            fill="#873B32"
+                            stroke="#E8B64C"
+                            stroke-width="2.5"
+                        />
+                        <polygon
+                            points="24,10.4 26.35,16.76 33.13,17.03 27.8,21.24 29.64,27.77 24,24 18.36,27.77 20.2,21.24 14.87,17.03 21.65,16.76"
+                            fill="#E8B64C"
+                        />
+                    </svg>
+                    <span class="leading-none"
+                        ><span
+                            class="block font-display font-extrabold text-2xl tracking-wide"
+                            >ĐỊA CHỈ ĐỎ</span
+                        ><span
+                            class="mt-1 inline-block bg-star px-2 py-0.5 font-display text-xs font-bold tracking-[0.32em] text-umber"
+                            >ĐỒNG NAI</span
+                        ></span
+                    >
+                </a>
+                <nav
+                    class="hidden items-center gap-9 text-sm lg:flex"
+                    aria-label="Điều hướng chính"
+                >
+                    <a
+                        href="../../index.html"
+                        class="py-2 font-semibold text-ivory/85 hover:text-star"
+                        >Trang chủ</a
+                    >
+                    <a
+                        href="../../index.html#dia-chi"
+                        class="border-b-[3px] border-star py-2 font-semibold text-star"
+                        aria-current="page"
+                        >Các địa chỉ đỏ</a
+                    >
+                    <a
+                        href="../../map.html"
+                        class="py-2 font-semibold text-ivory/85 hover:text-star"
+                        >Bản đồ</a
+                    >
+                </nav>
+                <button
+                    id="menu-btn"
+                    type="button"
+                    class="grid size-11 place-items-center border-2 border-bronze text-ivory lg:hidden"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    aria-label="Mở menu"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <nav
+                id="mobile-menu"
+                class="hidden border-t border-bronze/30 bg-umber text-sm lg:hidden"
+                aria-label="Điều hướng di động"
+            >
+                <a
+                    href="../../index.html"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold"
+                    >Trang chủ</a
+                >
+                <a
+                    href="../../index.html#dia-chi"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold text-star"
+                    >Các địa chỉ đỏ</a
+                >
+                <a href="../../map.html" class="block px-5 py-4 font-semibold"
+                    >Bản đồ</a
+                >
+            </nav>
+        </header>
+
+        <main id="noi-dung" class="pt-[4.6rem]">
+            <section
+                class="relative isolate overflow-hidden bg-umber text-ivory"
+            >
+                <div class="duo absolute inset-0 -z-20 opacity-55">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT43KV1qKNMKZ0uwAN4w0r41lbk4ENY5v9HmrZ34ZW3VUbm1QT_JIt_EDDN&s=10"
+                        alt="Khuôn viên di tích Nhà Xanh"
+                        class="size-full object-cover"
+                        fetchpriority="high"
+                        decoding="async"
+                        referrerpolicy="no-referrer"
+                    />
+                </div>
+                <div
+                    class="absolute inset-0 -z-10 bg-gradient-to-t from-umber via-umber/65 to-oxblood/45"
+                ></div>
+                <div
+                    class="mx-auto flex min-h-[31rem] max-w-7xl flex-col justify-between gap-14 px-5 pb-14 pt-14 lg:min-h-[35rem] lg:px-8 lg:pb-16"
+                >
+                    <nav aria-label="Breadcrumb" class="text-sm text-ivory/80">
+                        <ol class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                            <li>
+                                <a
+                                    class="hover:text-star hover:underline"
+                                    href="../../index.html"
+                                    >Trang chủ</a
+                                >
+                            </li>
+                            <li aria-hidden="true">/</li>
+                            <li>
+                                <a
+                                    class="hover:text-star hover:underline"
+                                    href="../index.html"
+                                    >Nhà Xanh</a
+                                >
+                            </li>
+                            <li aria-hidden="true">/</li>
+                            <li class="text-star" aria-current="page">
+                                Câu chuyện 01
+                            </li>
+                        </ol>
+                    </nav>
+                    <div>
+                        <p
+                            class="mb-4 font-display text-xl font-bold tracking-[.2em] text-star"
+                        >
+                            CÂU CHUYỆN 01 · 1912
+                        </p>
+                        <h1>
+                            <span
+                                class="block font-display text-[clamp(2.5rem,6vw,5rem)] font-extrabold leading-none text-star"
+                                >1912 – NHỮNG DẤU ẤN ĐẦU TIÊN</span
+                            >
+                            <span
+                                class="mt-4 block max-w-4xl font-display text-[clamp(2rem,4.6vw,3.8rem)] font-extrabold uppercase leading-[1.06]"
+                                >Nhà Xanh – Dấu ấn kiến trúc Pháp giữa lòng Biên
+                                Hòa</span
+                            >
+                        </h1>
+                        <p
+                            class="mt-6 max-w-2xl font-serif text-xl italic leading-9 text-ivory/90"
+                        >
+                            Trước khi trở thành một địa chỉ đỏ, Nhà Xanh từng là
+                            một công trình gắn với nhịp phát triển công nghiệp
+                            của Biên Hòa đầu thế kỷ XX.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div
+                class="sticky top-[3.8rem] z-40 border-b-2 border-umber bg-ivory"
+            >
+                <div
+                    id="tabbar"
+                    class="mx-auto flex max-w-7xl items-stretch gap-1 overflow-x-auto px-5 lg:px-8"
+                >
+                    <a
+                        href="../index.html"
+                        class="mr-auto flex items-center gap-2 whitespace-nowrap py-3 pr-6 font-display text-xl font-bold text-oxblood"
+                        ><i
+                            class="fa-solid fa-location-dot text-brick text-base"
+                        ></i
+                        >Nhà Xanh</a
+                    >
+                    <a
+                        href="../index.html"
+                        class="whitespace-nowrap px-4 py-3 text-sm font-semibold text-umber/80 hover:bg-kraft"
+                        ><i class="fa-solid fa-landmark mr-2 text-xs"></i>Tổng
+                        quan</a
+                    >
+                    <a
+                        href="../index.html#cau-chuyen"
+                        class="whitespace-nowrap bg-star px-4 py-3 text-sm font-semibold text-umber"
+                        aria-current="page"
+                        ><i class="fa-solid fa-book-open mr-2 text-xs"></i>Câu
+                        chuyện</a
+                    >
+                    <a
+                        href="../gallery.html"
+                        class="whitespace-nowrap px-4 py-3 text-sm font-semibold text-umber/80 hover:bg-kraft"
+                        ><i class="fa-solid fa-images mr-2 text-xs"></i>Hình
+                        ảnh</a
+                    >
+                    <a
+                        href="../video.html"
+                        class="whitespace-nowrap px-4 py-3 text-sm font-semibold text-umber/80 hover:bg-kraft"
+                        ><i class="fa-solid fa-circle-play mr-2 text-xs"></i
+                        >Video</a
+                    >
+                </div>
+            </div>
+
+            <section class="py-16 lg:py-24">
+                <div
+                    class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-12 lg:px-8"
+                >
+                    <aside class="self-start lg:sticky lg:top-40 lg:col-span-4">
+                        <div class="card-hard p-7">
+                            <h2
+                                class="font-display text-2xl font-bold uppercase text-oxblood"
+                            >
+                                Dòng thời gian
+                            </h2>
+                            <ol
+                                class="relative ml-1.5 mt-6 border-l-2 border-dashed border-bronze"
+                            >
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1907
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Công ty Kỹ nghệ và Lâm nghiệp Biên Hòa
+                                        (BIF) được thành lập.
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1912
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Nhà Xanh được xây dựng làm trụ sở văn
+                                        phòng của công ty.
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1945–1954
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Công trình được sử dụng làm sở chỉ huy
+                                        Tiểu khu Biên Hòa của quân đội Pháp.
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1954–1959
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Nhà Xanh được sử dụng làm nơi ở và làm
+                                        việc của phái đoàn cố vấn quân sự Mỹ.
+                                    </p>
+                                </li>
+                                <li class="relative pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        12/12/1986
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Được xếp hạng di tích lịch sử cấp quốc
+                                        gia.
+                                    </p>
+                                </li>
+                            </ol>
+                            <p
+                                class="mt-7 border-t border-kraft pt-5 text-xs leading-6 text-umber/65"
+                            >
+                                Dòng thời gian khái quát các mốc chính; nội dung
+                                được trình bày theo tư liệu giới thiệu di tích.
+                            </p>
+                        </div>
+                    </aside>
+
+                    <article
+                        class="font-serif text-[1.08rem] leading-[1.95] text-umber/90 lg:col-span-8 lg:max-w-3xl lg:pl-10"
+                    >
+                        <div
+                            class="mb-12 border-l-[6px] border-star bg-kraft/70 px-6 py-6"
+                        >
+                            <p
+                                class="font-sans text-xs font-bold uppercase tracking-[.18em] text-brick"
+                            >
+                                Tóm tắt câu chuyện
+                            </p>
+                            <p
+                                class="mt-3 font-serif text-lg leading-8 text-oxblood"
+                            >
+                                Được xây dựng vào năm 1912, Nhà Xanh ban đầu là
+                                trụ sở của Công ty Kỹ nghệ và Lâm nghiệp Biên
+                                Hòa (BIF). Với kiến trúc Pháp đặc trưng và màu
+                                sơn xanh nổi bật, công trình trở thành một dấu
+                                tích kiến trúc đặc biệt, ghi lại một giai đoạn
+                                phát triển của vùng đất Biên Hòa đầu thế kỷ XX.
+                            </p>
+                        </div>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                Biên Hòa đầu thế kỷ XX – Bối cảnh hình thành Nhà
+                                Xanh
+                            </h2>
+                            <p class="dropcap mb-6">
+                                Đầu thế kỷ XX, Biên Hòa là một địa phương đang
+                                trải qua những thay đổi về kinh tế và diện mạo
+                                đô thị. Hoạt động công nghiệp, chế biến và khai
+                                thác lâm sản từng bước phát triển, kéo theo sự
+                                hình thành của các cơ sở sản xuất và văn phòng
+                                điều hành. Những công trình được xây dựng trong
+                                giai đoạn này không chỉ phục vụ nhu cầu làm việc
+                                mà còn phản ánh dấu ấn kiến trúc và bối cảnh xã
+                                hội của Biên Hòa dưới thời Pháp thuộc.
+                            </p>
+                            <p class="mb-6">
+                                Trong bối cảnh ấy, năm 1907, Công ty Kỹ nghệ và
+                                Lâm nghiệp Biên Hòa, thường được viết tắt là BIF
+                                (tên tiếng Pháp:
+                                <em>Bien Hoa Industrielle et Forestière</em>),
+                                được thành lập. Sự xuất hiện của công ty gắn với
+                                hoạt động công nghiệp và khai thác lâm sản tại
+                                địa phương, đồng thời tạo nên nhu cầu về một địa
+                                điểm làm việc, điều hành các hoạt động của doanh
+                                nghiệp.
+                            </p>
+                            <p class="mb-6">
+                                Đến năm 1912, công trình Nhà Xanh được xây dựng
+                                để làm trụ sở văn phòng của công ty. Từ một địa
+                                điểm phục vụ hoạt động sản xuất, kinh doanh,
+                                ngôi nhà dần trở thành một phần trong ký ức đô
+                                thị Biên Hòa. Đây cũng là dấu mốc mở đầu cho
+                                hành trình lịch sử đặc biệt của công trình,
+                                trước khi nơi này trải qua nhiều lần thay đổi
+                                công năng trong những giai đoạn tiếp theo.
+                            </p>
+                        </section>
+
+                        <figure class="card-hard relative my-14 p-3 pb-4">
+                            <span
+                                class="absolute -top-3 left-10 h-6 w-20 rotate-[-3deg] bg-star/70"
+                            ></span>
+                            <a
+                                href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKKYhrtS-De_Rf4IPbFPpZV2cxGXy0u3KsTZ1CUv7Ic5eXbHpbLe9RZpZ&s=10"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="block overflow-hidden bg-umber"
+                            >
+                                <img
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKKYhrtS-De_Rf4IPbFPpZV2cxGXy0u3KsTZ1CUv7Ic5eXbHpbLe9RZpZ&s=10"
+                                    alt="Khuôn viên di tích Nhà Xanh tại Biên Hòa"
+                                    class="h-72 w-full object-cover lg:h-[26rem]"
+                                    loading="lazy"
+                                    decoding="async"
+                                    referrerpolicy="no-referrer"
+                                />
+                            </a>
+                            <figcaption
+                                class="px-1 pt-3 font-sans text-xs leading-6 text-umber/70"
+                            >
+                                Hình ảnh khuôn viên di tích Nhà Xanh. Nguồn ảnh:
+                                Cổng thông tin điện tử tỉnh Đồng Nai; cần đối
+                                chiếu lại chú thích ảnh với trang nguồn trước
+                                khi xuất bản.
+                            </figcaption>
+                        </figure>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                Một công trình mang dáng dấp kiến trúc Pháp
+                            </h2>
+                            <p class="mb-6">
+                                Nhà Xanh gây chú ý bởi phong cách kiến trúc Pháp
+                                và kết cấu xây dựng kiên cố. Công trình có hai
+                                tầng, hệ thống cửa sổ cùng phần mái lợp ngói móc
+                                vảy cá. Những chi tiết ấy tạo nên diện mạo
+                                riêng, đồng thời gợi nhắc đến phong cách kiến
+                                trúc từng được sử dụng tại nhiều công trình hành
+                                chính, công nghiệp và nhà ở ở Nam Kỳ trong thời
+                                kỳ này.
+                            </p>
+                            <p class="mb-6">
+                                Tên gọi “Nhà Xanh” được lưu truyền từ màu sơn
+                                đặc trưng của công trình. Đó là một cách gọi gần
+                                gũi, dễ nhớ, gắn với hình ảnh ngôi nhà trong đời
+                                sống địa phương. Theo thời gian, tên gọi ấy
+                                không chỉ dùng để nhận diện một công trình mà
+                                còn trở thành tên gọi quen thuộc của một địa
+                                điểm lịch sử tại Biên Hòa.
+                            </p>
+                            <p class="mb-6">
+                                Nhìn từ góc độ kiến trúc, Nhà Xanh là dấu tích
+                                giúp người hôm nay hình dung phần nào cách thức
+                                xây dựng và tổ chức không gian của một cơ sở làm
+                                việc đầu thế kỷ XX. Giá trị của công trình vì
+                                thế không chỉ nằm ở tuổi đời, mà còn ở khả năng
+                                lưu giữ những dấu vết vật chất của một giai đoạn
+                                lịch sử đã qua.
+                            </p>
+                        </section>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                Từ trụ sở doanh nghiệp đến một chứng tích lịch
+                                sử
+                            </h2>
+                            <p class="mb-6">
+                                Lịch sử của Nhà Xanh không dừng lại ở vai trò
+                                trụ sở BIF. Khi tình hình chính trị và quân sự
+                                tại Nam Bộ thay đổi, công trình cũng lần lượt
+                                được sử dụng cho những mục đích khác. Trong giai
+                                đoạn quân Pháp quay trở lại, nơi đây được sử
+                                dụng làm sở chỉ huy Tiểu khu Biên Hòa. Sau năm
+                                1954, Nhà Xanh tiếp tục được sử dụng làm nơi ở
+                                và làm việc của phái đoàn cố vấn quân sự Mỹ tại
+                                Biên Hòa.
+                            </p>
+                            <p class="mb-6">
+                                Những thay đổi công năng ấy khiến Nhà Xanh trở
+                                thành địa điểm gắn với nhiều lớp lịch sử khác
+                                nhau: từ hoạt động công nghiệp thời thuộc địa,
+                                đến bối cảnh quân sự trong những năm chiến
+                                tranh. Đặc biệt, việc công trình trở thành địa
+                                điểm diễn ra trận đánh ngày 07/07/1959 đã tạo
+                                nên dấu mốc quan trọng, làm nên giá trị lịch sử
+                                cách mạng của di tích ngày nay.
+                            </p>
+                            <p class="mb-6">
+                                Vì vậy, khi tìm hiểu Nhà Xanh, chúng ta không
+                                chỉ nhìn vào một ngôi nhà có kiến trúc cổ. Mỗi
+                                giai đoạn sử dụng đều góp thêm một lớp ý nghĩa,
+                                giúp người xem hiểu rõ hơn những biến động mà
+                                vùng đất Biên Hòa đã trải qua trong thế kỷ XX.
+                            </p>
+                        </section>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                Giữ lại dấu tích của một thời
+                            </h2>
+                            <p class="mb-6">
+                                Trải qua hơn một thế kỷ, Nhà Xanh vẫn là một
+                                công trình có ý nghĩa trong hệ thống di tích của
+                                Đồng Nai. Việc bảo tồn nơi đây giúp lưu giữ một
+                                dấu tích kiến trúc, đồng thời tạo điều kiện để
+                                các thế hệ sau tiếp cận những câu chuyện lịch sử
+                                gắn với Biên Hòa.
+                            </p>
+                            <p class="mb-6">
+                                Ngày nay, Nhà Xanh được biết đến là di tích lịch
+                                sử cấp quốc gia. Khi đứng trước công trình,
+                                người xem có thể bắt đầu từ những chi tiết rất
+                                cụ thể như màu sơn, mái ngói, cửa sổ và kết cấu
+                                hai tầng, rồi từ đó lần theo những biến chuyển
+                                của lịch sử. Một công trình vốn được dựng lên
+                                với mục đích sử dụng rất đời thường đã trở thành
+                                nơi lưu giữ ký ức của cả một giai đoạn.
+                            </p>
+                            <p class="mb-6">
+                                Đối với người trẻ, tìm hiểu Nhà Xanh cũng là một
+                                cách tiếp cận lịch sử địa phương gần gũi hơn.
+                                Thay vì chỉ ghi nhớ tên gọi hay mốc thời gian,
+                                chúng ta có thể nhìn vào chính không gian còn
+                                hiện hữu để hình dung những đổi thay của Biên
+                                Hòa và hiểu vì sao một địa điểm lại được gìn giữ
+                                như một di tích.
+                            </p>
+                            <blockquote
+                                class="my-12 border-l-[6px] border-star bg-kraft px-7 py-8 font-serif text-2xl italic leading-[1.5] text-oxblood"
+                            >
+                                “Một công trình có thể đổi thay công năng qua
+                                từng thời kỳ, nhưng những dấu tích còn lại vẫn
+                                giúp chúng ta lần tìm câu chuyện của vùng đất
+                                nơi nó hiện diện.”
+                            </blockquote>
+                        </section>
+
+                        <div
+                            class="rays mb-14 border-2 border-umber p-8 text-ivory shadow-[6px_6px_0_#392821] lg:p-10"
+                        >
+                            <h2
+                                class="font-display text-2xl font-bold uppercase text-star"
+                            >
+                                Lời kết
+                            </h2>
+                            <p class="mt-4 font-serif text-xl italic leading-9">
+                                Nhà Xanh bắt đầu từ một công trình phục vụ hoạt
+                                động công nghiệp ở Biên Hòa đầu thế kỷ XX. Hơn
+                                một trăm năm sau, nơi đây trở thành một địa chỉ
+                                để chúng ta nhìn lại lịch sử, tìm hiểu những đổi
+                                thay của vùng đất và trân trọng những giá trị
+                                cần được gìn giữ cho các thế hệ mai sau.
+                            </p>
+                        </div>
+
+                        <div class="border-t-2 border-umber pt-8 font-sans">
+                            <h2
+                                class="font-display text-2xl font-bold uppercase text-oxblood"
+                            >
+                                Nguồn tham khảo
+                            </h2>
+                            <ol
+                                class="mt-5 list-decimal space-y-3 pl-5 text-sm leading-6 text-umber/80"
+                            >
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://dongnai.gov.vn"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Cổng thông tin điện tử tỉnh Đồng Nai –
+                                        tư liệu giới thiệu di tích Nhà Xanh.</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://baodongnai.com.vn"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Báo Đồng Nai – các bài viết về di tích
+                                        và lịch sử Biên Hòa.</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://thuvien.dongnai.gov.vn"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Thư viện tỉnh Đồng Nai – tư liệu lịch
+                                        sử địa phương.</a
+                                    >
+                                </li>
+                            </ol>
+                            <p class="mt-4 text-xs leading-6 text-umber/60"></p>
+                        </div>
+
+                        <div class="mt-12 flex flex-wrap gap-5 font-sans">
+                            <a
+                                href="../index.html#cau-chuyen"
+                                class="btn btn-brick"
+                                >Danh sách câu chuyện</a
+                            >
+                            <a href="story_2.html" class="btn btn-paper"
+                                >Câu chuyện tiếp theo
+                                <i class="fa-solid fa-arrow-right"></i
+                            ></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-umber text-ivory/80">
+            <div class="mx-auto max-w-7xl px-5 pt-16 lg:px-8">
+                <p
+                    class="font-display text-[clamp(2.6rem,9vw,7.5rem)] font-extrabold uppercase leading-[1.02] text-transparent [-webkit-text-stroke:2px_#C49A60]"
+                >
+                    Uống nước nhớ nguồn
+                </p>
+            </div>
+            <div
+                class="mx-auto grid max-w-7xl gap-12 px-5 py-14 md:grid-cols-12 lg:px-8"
+            >
+                <div class="md:col-span-5">
+                    <a
+                        href="../../index.html"
+                        class="inline-flex items-center gap-3"
+                        ><span
+                            class="grid size-11 place-items-center rounded-full border-2 border-star bg-brick text-xl text-star"
+                            ><i class="fa-solid fa-star"></i></span
+                        ><span class="leading-none"
+                            ><span
+                                class="block font-display text-3xl font-extrabold"
+                                >ĐỊA CHỈ ĐỎ</span
+                            ><span
+                                class="mt-1 inline-block bg-star px-2 py-0.5 font-display text-xs font-bold tracking-[.32em] text-umber"
+                                >ĐỒNG NAI</span
+                            ></span
+                        ></a
+                    >
+                    <p class="mt-6 max-w-sm text-sm leading-7">
+                        Dự án số hóa và lan tỏa giá trị lịch sử của các di tích,
+                        địa danh cách mạng trên địa bàn tỉnh Đồng Nai, đến gần
+                        hơn với thế hệ trẻ.
+                    </p>
+                </div>
+                <div class="md:col-span-3">
+                    <h2 class="font-display text-xl font-bold text-star">
+                        Khám phá
+                    </h2>
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li>
+                            <a class="hover:text-star" href="../../index.html"
+                                >Trang chủ</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="../../index.html#dia-chi"
+                                >Các địa chỉ đỏ</a
+                            >
+                        </li>
+                        <li>
+                            <a class="hover:text-star" href="../../map.html"
+                                >Bản đồ</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:col-span-4">
+                    <h2 class="font-display text-xl font-bold text-star">
+                        Nguồn tư liệu
+                    </h2>
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="https://dongnai.gov.vn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Cổng thông tin điện tử tỉnh Đồng Nai
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="https://baodongnai.com.vn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Báo Đồng Nai
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="https://thuvien.dongnai.gov.vn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Thư viện tỉnh Đồng Nai
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i
+                            ></a>
+                        </li>
+                    </ul>
+                    <p class="mt-6 text-xs leading-6 text-ivory/55"></p>
+                </div>
+            </div>
+            <div class="border-t border-bronze/25">
+                <p
+                    class="mx-auto max-w-7xl px-5 py-6 text-xs text-ivory/55 lg:px-8"
+                >
+                    © 2026 Địa Chỉ Đỏ Đồng Nai. Dự án số hóa và lan tỏa giá trị
+                    lịch sử.
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            (function () {
+                const header = document.getElementById("site-header");
+                const progress = document.getElementById("progress");
+                function onScroll() {
+                    header.classList.toggle("is-scrolled", window.scrollY > 24);
+                    const max =
+                        document.documentElement.scrollHeight -
+                        window.innerHeight;
+                    progress.style.width =
+                        (max > 0
+                            ? Math.min(100, (window.scrollY / max) * 100)
+                            : 0) + "%";
+                }
+                onScroll();
+                window.addEventListener("scroll", onScroll, { passive: true });
+                const btn = document.getElementById("menu-btn");
+                const menu = document.getElementById("mobile-menu");
+                btn.addEventListener("click", () => {
+                    const open = menu.classList.toggle("hidden") === false;
+                    btn.setAttribute("aria-expanded", String(open));
+                    btn.setAttribute(
+                        "aria-label",
+                        open ? "Đóng menu" : "Mở menu",
+                    );
+                    btn.querySelector("i").className = open
+                        ? "fa-solid fa-xmark"
+                        : "fa-solid fa-bars";
+                });
+                menu.querySelectorAll("a").forEach((a) =>
+                    a.addEventListener("click", () => {
+                        menu.classList.add("hidden");
+                        btn.setAttribute("aria-expanded", "false");
+                        btn.querySelector("i").className = "fa-solid fa-bars";
+                    }),
+                );
+                const tabbar = document.getElementById("tabbar");
+                const current = tabbar.querySelector('[aria-current="page"]');
+                if (current)
+                    tabbar.scrollLeft = Math.max(
+                        0,
+                        current.offsetLeft -
+                            tabbar.clientWidth / 2 +
+                            current.offsetWidth / 2,
+                    );
+                const fallback =
+                    "data:image/svg+xml;charset=UTF-8," +
+                    encodeURIComponent(
+                        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><rect width="800" height="500" fill="#54251F"/><rect x="30" y="30" width="740" height="440" fill="none" stroke="#C49A60" stroke-width="2"/><text x="400" y="245" fill="#E8B64C" font-family="Georgia" font-size="30" text-anchor="middle">Tư liệu ảnh đang được cập nhật</text></svg>',
+                    );
+                document.querySelectorAll("img").forEach((img) =>
+                    img.addEventListener("error", () => {
+                        if (!img.dataset.fallback) {
+                            img.dataset.fallback = "1";
+                            img.src = fallback;
+                        }
+                    }),
+                );
+            })();
+        </script>
+    </body>
+</html>

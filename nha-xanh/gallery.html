@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Thư viện ảnh | Nhà xanh | Địa Chỉ Đỏ Đồng Nai</title>
+        <title>Thư viện ảnh | Nhà Xanh | Địa Chỉ Đỏ Đồng Nai</title>
         <meta
             name="description"
-            content="Thư viện ảnh tư liệu về Di tích lịch sử Nhà xanh, Đồng Nai."
+            content="Thư viện ảnh tư liệu về Di tích lịch sử quốc gia Nhà Xanh, phường Trấn Biên, Đồng Nai."
         />
         <meta name="theme-color" content="#54251F" />
         <link
@@ -63,8 +63,6 @@
                 );
                 background-size: 9px 9px;
             }
-
-            /* Nền tranh cổ động: tia sáng tỏa từ góc dưới */
             .rays {
                 background:
                     repeating-conic-gradient(
@@ -82,8 +80,6 @@
             .dark {
                 --sh: #c49a60;
             }
-
-            /* Nút bấm */
             .btn {
                 display: inline-flex;
                 align-items: center;
@@ -122,8 +118,6 @@
                 background: #fcf9f3;
                 color: #392821;
             }
-
-            /* Ảnh tư liệu nhuộm màu đỏ nâu, rê chuột để xem màu gốc */
             .duo {
                 overflow: hidden;
                 background: #54251f;
@@ -141,8 +135,6 @@
                 filter: none;
                 transform: scale(1.04);
             }
-
-            /* Tem: viền răng cưa; bóng đổ đặt ở lớp ngoài để bám theo răng cưa */
             .tem-wrap {
                 display: block;
                 filter: drop-shadow(4px 5px 0 var(--sh, #392821));
@@ -227,8 +219,6 @@
                     transparent 9px 18px
                 );
             }
-
-            /* Thẻ có bóng cứng */
             .card-hard {
                 border: 2px solid #392821;
                 box-shadow: 6px 6px 0 #392821;
@@ -242,8 +232,6 @@
                 transform: translate(-3px, -3px);
                 box-shadow: 9px 9px 0 #392821;
             }
-
-            /* Băng dán */
             .tape {
                 position: absolute;
                 width: 5.5rem;
@@ -251,8 +239,6 @@
                 background: rgba(232, 182, 76, 0.72);
                 box-shadow: 0 1px 0 rgba(57, 40, 33, 0.18);
             }
-
-            /* Con dấu: đóng xuống một lần khi mở trang */
             .seal {
                 filter: drop-shadow(3px 4px 0 rgba(0, 0, 0, 0.35));
                 transform: rotate(-9deg);
@@ -271,7 +257,6 @@
                     opacity: 1;
                 }
             }
-
             .dropcap::first-letter {
                 font-family: var(--font-display);
                 font-weight: 800;
@@ -316,12 +301,14 @@
             }
         </style>
     </head>
+
     <body class="grain font-sans text-umber antialiased">
         <a
             href="#noi-dung"
             class="sr-only focus:not-sr-only focus:fixed focus:z-[70] focus:top-2 focus:left-2 focus:bg-ivory focus:text-brick focus:px-4 focus:py-2"
             >Bỏ qua điều hướng</a
         >
+
         <header
             id="site-header"
             class="dark fixed inset-x-0 top-0 z-50 border-b-[3px] border-star bg-umber text-ivory"
@@ -362,6 +349,7 @@
                         >
                     </span>
                 </a>
+
                 <nav
                     class="hidden items-center gap-9 text-[.95rem] lg:flex"
                     aria-label="Điều hướng chính"
@@ -370,17 +358,20 @@
                         href="../index.html"
                         class="border-b-[3px] py-1.5 font-semibold transition border-transparent text-ivory/85 hover:text-star"
                         >Trang chủ</a
-                    ><a
+                    >
+                    <a
                         href="../index.html#dia-chi"
                         class="border-b-[3px] py-1.5 font-semibold transition border-star text-star"
                         aria-current="page"
                         >Các địa chỉ đỏ</a
-                    ><a
+                    >
+                    <a
                         href="../map.html"
                         class="border-b-[3px] py-1.5 font-semibold transition border-transparent text-ivory/85 hover:text-star"
                         >Bản đồ</a
                     >
                 </nav>
+
                 <button
                     id="menu-btn"
                     type="button"
@@ -392,6 +383,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </button>
             </div>
+
             <nav
                 id="mobile-menu"
                 class="hidden border-t border-bronze/30 bg-umber text-[.95rem] lg:hidden"
@@ -401,17 +393,20 @@
                     href="../index.html"
                     class="block border-b border-bronze/20 px-5 py-4 font-semibold text-ivory/90"
                     >Trang chủ</a
-                ><a
+                >
+                <a
                     href="../index.html#dia-chi"
                     class="block border-b border-bronze/20 px-5 py-4 font-semibold text-star"
                     >Các địa chỉ đỏ</a
-                ><a
+                >
+                <a
                     href="../map.html"
                     class="block border-b border-bronze/20 px-5 py-4 font-semibold text-ivory/90"
                     >Bản đồ</a
                 >
             </nav>
         </header>
+
         <main id="noi-dung" class="pt-[4.6rem]">
             <section
                 class="rays dark relative isolate overflow-hidden text-ivory"
@@ -433,7 +428,7 @@
                                 <a
                                     class="underline-offset-4 hover:text-star hover:underline"
                                     href="index.html"
-                                    >Nhà xanh</a
+                                    >Nhà Xanh</a
                                 >
                             </li>
                             <li aria-hidden="true" class="text-bronze">/</li>
@@ -442,20 +437,24 @@
                             </li>
                         </ol>
                     </nav>
+
                     <h1
                         class="mt-8 max-w-4xl font-display text-[clamp(2.7rem,7vw,5.6rem)] font-extrabold uppercase leading-[1.04]"
                     >
                         Những hình ảnh còn lại với thời gian
                     </h1>
+
                     <p
                         class="mt-6 max-w-2xl font-serif text-lg leading-9 text-ivory/85"
                     >
-                        Mỗi bức ảnh là một lát cắt của ký ức. Từ những dấu tích
-                        kiến trúc đến các hoạt động tưởng niệm hôm nay, tất cả
-                        cùng góp phần lưu giữ câu chuyện về Nhà xanh.
+                        Từ dáng vẻ kiến trúc của một biệt thự Pháp hơn một thế
+                        kỷ trước đến không gian lưu giữ những dấu tích lịch sử
+                        hôm nay, mỗi bức ảnh đều giúp chúng ta hiểu thêm về Nhà
+                        Xanh – một chứng nhân của lịch sử Biên Hòa.
                     </p>
                 </div>
             </section>
+
             <div
                 class="sticky top-[3.8rem] z-40 border-b-2 border-umber bg-ivory"
             >
@@ -466,192 +465,243 @@
                     <a
                         href="index.html"
                         class="mr-auto flex items-center gap-2 whitespace-nowrap py-3 pr-6 font-display text-xl font-bold text-oxblood"
-                        ><i
-                            class="fa-solid fa-location-dot text-brick text-base"
-                        ></i
-                        >Nhà xanh</a
                     >
+                        <i
+                            class="fa-solid fa-location-dot text-brick text-base"
+                        ></i>
+                        Nhà Xanh
+                    </a>
+
                     <a
                         href="index.html"
                         class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition text-umber/80 hover:bg-kraft"
-                        ><i class="fa-solid fa-landmark text-xs"></i>Tổng
-                        quan</a
-                    ><a
+                    >
+                        <i class="fa-solid fa-landmark text-xs"></i>
+                        Tổng quan
+                    </a>
+
+                    <a
                         href="index.html#cau-chuyen"
                         class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition text-umber/80 hover:bg-kraft"
-                        ><i class="fa-solid fa-book-open text-xs"></i>Câu
-                        chuyện</a
-                    ><a
+                    >
+                        <i class="fa-solid fa-book-open text-xs"></i>
+                        Câu chuyện
+                    </a>
+
+                    <a
                         href="gallery.html"
                         class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition bg-star text-umber"
                         aria-current="page"
-                        ><i class="fa-solid fa-images text-xs"></i>Hình ảnh</a
-                    ><a
+                    >
+                        <i class="fa-solid fa-images text-xs"></i>
+                        Hình ảnh
+                    </a>
+
+                    <a
                         href="video.html"
                         class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition text-umber/80 hover:bg-kraft"
-                        ><i class="fa-solid fa-circle-play text-xs"></i>Video</a
                     >
+                        <i class="fa-solid fa-circle-play text-xs"></i>
+                        Video
+                    </a>
                 </div>
             </div>
+
             <section class="py-16 lg:py-20">
                 <div class="mx-auto max-w-7xl px-5 lg:px-8">
-                    <p class="max-w-2xl text-sm text-umber/70">
+                    <p class="max-w-2xl text-sm leading-7 text-umber/70">
                         Bấm vào ảnh để mở ảnh gốc ở tab mới. Ảnh được dẫn trực
-                        tiếp từ nguồn, không lưu trữ lại trong dự án.
+                        tiếp từ nguồn tư liệu chính thức, không lưu trữ lại
+                        trong dự án.
                     </p>
+
                     <div
                         class="mt-12 columns-1 gap-10 sm:columns-2 lg:columns-3"
                     >
-                        <!-- ▼▼▼ ẢNH: copy cả khối <figure>…</figure>, sửa link ảnh (2 chỗ), chú thích, nguồn ▼▼▼ -->
+                        <!-- ẢNH 1: TOÀN CẢNH NHÀ XANH -->
                         <figure
                             class="card-hard lift relative mb-12 break-inside-avoid p-3 pb-4 -rotate-[1.2deg] hover:rotate-0"
                         >
                             <span
                                 class="tape -top-3 left-1/2 -translate-x-1/2 rotate-2"
                             ></span>
+
                             <a
-                                href="https://dongnai.gov.vn/uploads/binhphuoc/news/2026_06/1_20260603173824.jpg"
+                                href="https://cdn.dongnai.gov.vn/uploads/tranbien/news/2026_08/nha-xanh-02.jpg"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="block overflow-hidden bg-umber"
-                                aria-label="Mở ảnh gốc: Toàn cảnh di tích"
-                                ><img
-                                    src="https://dongnai.gov.vn/uploads/binhphuoc/news/2026_06/1_20260603173824.jpg"
-                                    alt="Toàn cảnh di tích Nhà xanh"
+                                aria-label="Mở ảnh gốc: Toàn cảnh di tích Nhà Xanh"
+                            >
+                                <img
+                                    src="https://cdn.dongnai.gov.vn/uploads/tranbien/news/2026_08/nha-xanh-02.jpg"
+                                    alt="Toàn cảnh mặt trước di tích Nhà Xanh với kiến trúc hai tầng và mái ngói đỏ"
                                     class="h-auto w-full"
                                     loading="lazy"
                                     decoding="async"
                                     referrerpolicy="no-referrer"
-                            /></a>
+                                />
+                            </a>
+
                             <figcaption
                                 class="px-1 pt-4 text-sm leading-6 text-umber/80"
                             >
                                 <strong
                                     class="block font-display text-xl font-bold uppercase text-oxblood"
-                                    >Toàn cảnh di tích</strong
-                                >Toàn cảnh di tích Nhà xanh.<br />Nguồn:
+                                    >Di tích Nhà Xanh</strong
+                                >
+                                Toàn cảnh công trình lịch sử nằm trong khuôn
+                                viên Trường Cao đẳng Kỹ thuật Đồng Nai.<br />
+                                Nguồn:
                                 <a
                                     class="underline hover:text-brick"
-                                    href="https://dongnai.gov.vn/vi/news/Di-tich-Danh-lam-Thang-canh/doan-can-bo-cong-chuc-ban-tuyen-giao-va-dan-van-thanh-uy-dang-huong-tuong-niem-ngay-nu-tu-chinh-tri-bi-tham-sat-tai-nha-lao-tan-hiep-62178.html"
+                                    href="https://tranbien.dongnai.gov.vn/vi/news/di-tich-ton-giao-tin-nguong/di-tich-nha-xanh-chung-tich-lich-su-giua-long-phuong-tran-bien-909.html"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    >dongnai.gov.vn</a
+                                    >UBND phường Trấn Biên</a
                                 >
                             </figcaption>
                         </figure>
-                        <!-- ▲▲▲ HẾT ẢNH ▲▲▲ --><!-- ▼▼▼ ẢNH: copy cả khối <figure>…</figure>, sửa link ảnh (2 chỗ), chú thích, nguồn ▼▼▼ -->
+
+                        <!-- ẢNH 2: GÓC NGHIÊNG CÔNG TRÌNH -->
                         <figure
                             class="card-hard lift relative mb-12 break-inside-avoid p-3 pb-4 rotate-[1.2deg] hover:rotate-0"
                         >
                             <span
                                 class="tape -top-3 left-1/2 -translate-x-1/2 -rotate-2"
                             ></span>
+
                             <a
-                                href="https://dongnai.gov.vn/uploads/binhphuoc/news/2025_12/kham-th1.jpg"
+                                href="https://cdn.dongnai.gov.vn/uploads/tranbien/news/2026_08/nha-xanh-01.jpg"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="block overflow-hidden bg-umber"
-                                aria-label="Mở ảnh gốc: Hình ảnh tư liệu Nhà xanh"
-                                ><img
-                                    src="https://dongnai.gov.vn/uploads/binhphuoc/news/2025_12/kham-th1.jpg"
-                                    alt="Hình ảnh tư liệu Nhà xanh"
+                                aria-label="Mở ảnh gốc: Góc nhìn kiến trúc Nhà Xanh"
+                            >
+                                <img
+                                    src="https://cdn.dongnai.gov.vn/uploads/tranbien/news/2026_08/nha-xanh-01.jpg"
+                                    alt="Góc nhìn nghiêng công trình Nhà Xanh với hệ mái ngói và cửa sổ gỗ"
                                     class="h-auto w-full"
                                     loading="lazy"
                                     decoding="async"
                                     referrerpolicy="no-referrer"
-                            /></a>
+                                />
+                            </a>
+
                             <figcaption
                                 class="px-1 pt-4 text-sm leading-6 text-umber/80"
                             >
                                 <strong
                                     class="block font-display text-xl font-bold uppercase text-oxblood"
-                                    >Hình ảnh tư liệu Nhà xanh</strong
-                                >Hình ảnh tư liệu về Nhà xanh.<br />Nguồn:
+                                    >Dấu ấn kiến trúc Pháp</strong
+                                >
+                                Công trình có kết cấu hai tầng, mái lợp ngói vảy
+                                cá và những đường nét kiến trúc đặc trưng của
+                                một biệt thự Pháp đầu thế kỷ XX.<br />
+                                Nguồn:
                                 <a
                                     class="underline hover:text-brick"
-                                    href="https://dongnai.gov.vn/vi/news/Di-tich-Danh-thang/cuoc-noi-day-pha-kham-tan-hiep-noi-thu-lua-ban-linh-y-chi-cua-nguoi-chien-si-cach-mang-57734.html"
+                                    href="https://tranbien.dongnai.gov.vn/vi/news/di-tich-ton-giao-tin-nguong/di-tich-nha-xanh-chung-tich-lich-su-giua-long-phuong-tran-bien-909.html"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    >dongnai.gov.vn</a
+                                    >UBND phường Trấn Biên</a
                                 >
                             </figcaption>
                         </figure>
-                        <!-- ▲▲▲ HẾT ẢNH ▲▲▲ --><!-- ▼▼▼ ẢNH: copy cả khối <figure>…</figure>, sửa link ảnh (2 chỗ), chú thích, nguồn ▼▼▼ -->
+
+                        <!-- ẢNH 3: KHÔNG GIAN TRƯNG BÀY -->
                         <figure
                             class="card-hard lift relative mb-12 break-inside-avoid p-3 pb-4 -rotate-[1.2deg] hover:rotate-0"
                         >
                             <span
                                 class="tape -top-3 left-1/2 -translate-x-1/2 rotate-2"
                             ></span>
+
                             <a
-                                href="https://dongnai.gov.vn/uploads/binhphuoc/news/2023/05/a677fcbbdd3e178fba3a5e27f4a4a2f3-2023-05-26.14-20-25.jpg"
+                                href="https://cdn.dongnai.gov.vn/uploads/tranbien/news/2026_08/nha-xanh-03.jpg"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="block overflow-hidden bg-umber"
-                                aria-label="Mở ảnh gốc: Khuôn viên di tích"
-                                ><img
-                                    src="https://dongnai.gov.vn/uploads/binhphuoc/news/2023/05/a677fcbbdd3e178fba3a5e27f4a4a2f3-2023-05-26.14-20-25.jpg"
-                                    alt="Khuôn viên di tích Nhà xanh"
+                                aria-label="Mở ảnh gốc: Không gian trưng bày về trận đánh Nhà Xanh"
+                            >
+                                <img
+                                    src="https://cdn.dongnai.gov.vn/uploads/tranbien/news/2026_08/nha-xanh-03.jpg"
+                                    alt="Không gian trưng bày hình ảnh và tư liệu về trận đánh Nhà Xanh"
                                     class="h-auto w-full"
                                     loading="lazy"
                                     decoding="async"
                                     referrerpolicy="no-referrer"
-                            /></a>
+                                />
+                            </a>
+
                             <figcaption
                                 class="px-1 pt-4 text-sm leading-6 text-umber/80"
                             >
                                 <strong
                                     class="block font-display text-xl font-bold uppercase text-oxblood"
-                                    >Khuôn viên di tích</strong
-                                >Khuôn viên di tích Nhà xanh.<br />Nguồn:
+                                    >Không gian lưu giữ ký ức</strong
+                                >
+                                Một góc trưng bày hình ảnh, tư liệu về trận đánh
+                                Nhà Xanh, góp phần kể lại câu chuyện lịch sử của
+                                di tích.<br />
+                                Nguồn:
                                 <a
                                     class="underline hover:text-brick"
-                                    href="https://dongnai.gov.vn/vi/news/chuong-trinh-ke-hoach-phat-trien-ktxh/can-thiet-trung-tu-ton-tao-di-tich-nha-lao-tan-hiep-34730.html"
+                                    href="https://tranbien.dongnai.gov.vn/vi/news/di-tich-ton-giao-tin-nguong/di-tich-nha-xanh-chung-tich-lich-su-giua-long-phuong-tran-bien-909.html"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    >dongnai.gov.vn</a
+                                    >UBND phường Trấn Biên</a
                                 >
                             </figcaption>
                         </figure>
-                        <!-- ▲▲▲ HẾT ẢNH ▲▲▲ --><!-- ▼▼▼ ẢNH: copy cả khối <figure>…</figure>, sửa link ảnh (2 chỗ), chú thích, nguồn ▼▼▼ -->
+
+                        <!-- ẢNH 4: HOẠT ĐỘNG TƯỞNG NIỆM -->
                         <figure
                             class="card-hard lift relative mb-12 break-inside-avoid p-3 pb-4 rotate-[1.2deg] hover:rotate-0"
                         >
                             <span
                                 class="tape -top-3 left-1/2 -translate-x-1/2 -rotate-2"
                             ></span>
+
                             <a
-                                href="https://dongnai.gov.vn/uploads/binhphuoc/news/2026_04/thumbnail_dia_chi_do_20260414110103.jpg"
+                                href="https://cdn.dongnai.gov.vn/uploads/binhphuoc/news/2022/04/166291.080719-trangtronglekyniem60namtrandanhmydautienomiennam.jpg"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="block overflow-hidden bg-umber"
-                                aria-label="Mở ảnh gốc: Infographic địa chỉ đỏ"
-                                ><img
-                                    src="https://dongnai.gov.vn/uploads/binhphuoc/news/2026_04/thumbnail_dia_chi_do_20260414110103.jpg"
-                                    alt="Infographic địa chỉ đỏ Đồng Nai về Nhà xanh"
+                                aria-label="Mở ảnh gốc: Lễ kỷ niệm 60 năm trận đánh Nhà Xanh"
+                            >
+                                <img
+                                    src="https://cdn.dongnai.gov.vn/uploads/binhphuoc/news/2022/04/166291.080719-trangtronglekyniem60namtrandanhmydautienomiennam.jpg"
+                                    alt="Các đại biểu tham dự lễ kỷ niệm 60 năm trận đánh Nhà Xanh"
                                     class="h-auto w-full"
                                     loading="lazy"
                                     decoding="async"
                                     referrerpolicy="no-referrer"
-                            /></a>
+                                />
+                            </a>
+
                             <figcaption
                                 class="px-1 pt-4 text-sm leading-6 text-umber/80"
                             >
                                 <strong
                                     class="block font-display text-xl font-bold uppercase text-oxblood"
-                                    >Infographic địa chỉ đỏ</strong
-                                >Infographic về địa chỉ đỏ Đồng Nai.<br />Nguồn:
+                                    >Tri ân những người đi trước</strong
+                                >
+                                Các đại biểu tham dự lễ kỷ niệm 60 năm trận đánh
+                                Nhà Xanh, tổ chức tại di tích vào tháng
+                                7/2019.<br />
+                                Nguồn:
                                 <a
                                     class="underline hover:text-brick"
-                                    href="https://dongnai.gov.vn/vi/news/van-hoa-dong-nai/chuoi-infographic-dia-chi-do-dong-nai-can-cu-bo-chi-huy-quan-giai-phong-mien-nam-viet-nam-di-tich-nha-lao-tan-hiep-61021.html"
+                                    href="https://dongnai.gov.vn/vi/news/an-ninh-quoc-phong/trang-trong-le-ky-niem-60-nam-tran-danh-my-dau-tien-o-mien-nam-8720.html"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    >dongnai.gov.vn</a
+                                    >Cổng thông tin điện tử tỉnh Đồng Nai</a
                                 >
                             </figcaption>
                         </figure>
-                        <!-- ▲▲▲ HẾT ẢNH ▲▲▲ -->
                     </div>
+
                     <aside
                         class="mt-6 flex flex-wrap items-center justify-between gap-6 border-2 border-dashed border-bronze bg-ivory p-8"
                     >
@@ -659,34 +709,39 @@
                             <h2
                                 class="font-display text-2xl font-bold uppercase text-oxblood"
                             >
-                                Nguồn ảnh bổ sung
+                                Tìm hiểu thêm về Nhà Xanh
                             </h2>
                             <p class="mt-2 text-sm leading-7 text-umber/85">
-                                Bài ảnh về di tích quốc gia Nhà xanh trên Báo
-                                Đồng Nai với nhiều hình ảnh khác của di tích.
+                                Bài viết giới thiệu lịch sử hình thành, kiến
+                                trúc và ý nghĩa của Di tích Nhà Xanh – chứng
+                                tích lịch sử giữa lòng phường Trấn Biên.
                             </p>
                         </div>
+
                         <a
-                            href="https://baodongnai.com.vn/kham-pha-dong-nai202607/anh-thang-bay-ve-o-di-tich-quoc-gia-nha-lao-tan-hiep-a00194f/"
+                            href="https://tranbien.dongnai.gov.vn/vi/news/di-tich-ton-giao-tin-nguong/di-tich-nha-xanh-chung-tich-lich-su-giua-long-phuong-tran-bien-909.html"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="btn btn-brick"
-                            >Xem bài ảnh gốc</a
                         >
+                            Đọc bài viết gốc
+                        </a>
                     </aside>
+
                     <div
                         class="mt-14 flex flex-wrap gap-5 border-t-2 border-umber pt-10"
                     >
-                        <a href="index.html" class="btn btn-paper"
-                            >Về trang địa chỉ</a
-                        >
-                        <a href="video.html" class="btn btn-brick"
-                            >Video tư liệu</a
-                        >
+                        <a href="index.html" class="btn btn-paper">
+                            Về trang địa chỉ
+                        </a>
+                        <a href="video.html" class="btn btn-brick">
+                            Video tư liệu
+                        </a>
                     </div>
                 </div>
             </section>
         </main>
+
         <footer class="dark bg-umber text-ivory/80">
             <div class="mx-auto max-w-7xl px-5 pt-16 lg:px-8">
                 <p
@@ -695,6 +750,7 @@
                     Uống nước nhớ nguồn
                 </p>
             </div>
+
             <div
                 class="mx-auto grid max-w-7xl gap-12 px-5 py-14 md:grid-cols-12 lg:px-8"
             >
@@ -721,6 +777,7 @@
                                 fill="#E8B64C"
                             />
                         </svg>
+
                         <span class="leading-none">
                             <span
                                 class="block font-display font-extrabold text-[1.9rem] tracking-wide text-ivory"
@@ -732,12 +789,14 @@
                             >
                         </span>
                     </a>
+
                     <p class="mt-6 max-w-sm text-sm leading-7">
                         Dự án số hóa và lan tỏa giá trị lịch sử của các di tích,
                         địa danh cách mạng trên địa bàn tỉnh Đồng Nai, đến gần
                         hơn với thế hệ trẻ.
                     </p>
                 </div>
+
                 <div class="md:col-span-3">
                     <h2 class="font-display text-xl font-bold text-star">
                         Khám phá
@@ -766,6 +825,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="md:col-span-4">
                     <h2 class="font-display text-xl font-bold text-star">
                         Nguồn tư liệu
@@ -777,11 +837,12 @@
                                 href="https://dongnai.gov.vn"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                >Cổng thông tin điện tử tỉnh Đồng Nai
+                            >
+                                Cổng thông tin điện tử tỉnh Đồng Nai
                                 <i
                                     class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
-                                ></i
-                            ></a>
+                                ></i>
+                            </a>
                         </li>
                         <li>
                             <a
@@ -789,31 +850,35 @@
                                 href="https://baodongnai.com.vn"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                >Báo Đồng Nai
+                            >
+                                Báo Đồng Nai
                                 <i
                                     class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
-                                ></i
-                            ></a>
+                                ></i>
+                            </a>
                         </li>
                         <li>
                             <a
                                 class="hover:text-star transition"
-                                href="https://www.youtube.com"
+                                href="https://tranbien.dongnai.gov.vn"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                >YouTube (video tư liệu)
+                            >
+                                UBND phường Trấn Biên
                                 <i
                                     class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
-                                ></i
-                            ></a>
+                                ></i>
+                            </a>
                         </li>
                     </ul>
+
                     <p class="mt-6 text-xs leading-6 text-ivory/55">
-                        Hình ảnh và video được dẫn từ các nguồn gốc nêu trong
-                        từng mục; bản quyền thuộc về chủ sở hữu tư liệu.
+                        Hình ảnh được dẫn từ các nguồn tư liệu chính thức. Bản
+                        quyền thuộc về cơ quan và chủ sở hữu tư liệu.
                     </p>
                 </div>
             </div>
+
             <div class="border-t border-bronze/25">
                 <p
                     class="mx-auto max-w-7xl px-5 py-6 text-xs text-ivory/55 lg:px-8"
@@ -823,38 +888,47 @@
                 </p>
             </div>
         </footer>
+
         <script>
             (function () {
                 var header = document.getElementById("site-header");
                 var bar = document.getElementById("progress");
+
                 function onScroll() {
                     header.classList.toggle("is-scrolled", window.scrollY > 24);
+
                     if (bar) {
                         var h =
                             document.documentElement.scrollHeight -
                             window.innerHeight;
+
                         bar.style.width =
                             (h > 0
                                 ? Math.min(100, (window.scrollY / h) * 100)
                                 : 0) + "%";
                     }
                 }
+
                 onScroll();
                 window.addEventListener("scroll", onScroll, { passive: true });
 
                 var btn = document.getElementById("menu-btn");
                 var menu = document.getElementById("mobile-menu");
+
                 btn.addEventListener("click", function () {
                     var open = menu.classList.toggle("hidden") === false;
+
                     btn.setAttribute("aria-expanded", open ? "true" : "false");
                     btn.setAttribute(
                         "aria-label",
                         open ? "Đóng menu" : "Mở menu",
                     );
+
                     btn.querySelector("i").className = open
                         ? "fa-solid fa-xmark"
                         : "fa-solid fa-bars";
                 });
+
                 menu.querySelectorAll("a").forEach(function (a) {
                     a.addEventListener("click", function () {
                         menu.classList.add("hidden");
@@ -864,15 +938,18 @@
                 });
 
                 var tabbar = document.getElementById("tabbar");
+
                 if (tabbar) {
                     var cur = tabbar.querySelector('[aria-current="page"]');
-                    if (cur)
+
+                    if (cur) {
                         tabbar.scrollLeft = Math.max(
                             0,
                             cur.offsetLeft -
                                 tabbar.clientWidth / 2 +
                                 cur.offsetWidth / 2,
                         );
+                    }
                 }
 
                 var fallback =
@@ -884,21 +961,25 @@
                             '<text x="400" y="240" fill="#E8B64C" font-family="Georgia,serif" font-size="30" text-anchor="middle">Tư liệu ảnh đang được cập nhật</text>' +
                             '<text x="400" y="285" fill="#F5EFE5" fill-opacity=".7" font-family="Georgia,serif" font-style="italic" font-size="20" text-anchor="middle">Địa Chỉ Đỏ Đồng Nai</text></svg>',
                     );
+
                 function fix(img) {
                     if (img.dataset.fb) return;
                     img.dataset.fb = "1";
                     img.src = fallback;
                 }
+
                 document.querySelectorAll("img").forEach(function (img) {
                     img.addEventListener("error", function () {
                         fix(img);
                     });
+
                     if (
                         img.complete &&
                         img.naturalWidth === 0 &&
                         img.getAttribute("src")
-                    )
+                    ) {
                         fix(img);
+                    }
                 });
             })();
         </script>
