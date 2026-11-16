@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Video tư liệu | Văn miếu Trấn Biên | Địa Chỉ Đỏ Đồng Nai</title>
+        <meta
+            name="description"
+            content="Video tư liệu về lịch sử, kiến trúc và giá trị văn hóa của Văn miếu Trấn Biên, di tích lịch sử cấp quốc gia tại Đồng Nai."
+        />
+        <meta name="theme-color" content="#54251F" />
+
+        <link
+            rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 56'%3E%3Cpath d='M24 54C24 54 6 33 6 20a18 18 0 0 1 36 0c0 13-18 34-18 34Z' fill='%23873B32' stroke='%23E8B64C' stroke-width='3'/%3E%3Cpolygon points='24.00,10.40 26.35,16.76 33.13,17.03 27.80,21.24 29.64,27.77 24.00,24.00 18.36,27.77 20.20,21.24 14.87,17.03 21.65,16.76' fill='%23E8B64C'/%3E%3C/svg%3E"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <style type="text/tailwindcss">
+            @theme {
+                --color-oxblood: #54251f;
+                --color-brick: #873b32;
+                --color-clay: #a94e3d;
+                --color-umber: #392821;
+                --color-paper: #f5efe5;
+                --color-ivory: #fcf9f3;
+                --color-bronze: #c49a60;
+                --color-star: #e8b64c;
+                --color-kraft: #e9dcc3;
+                --font-display:
+                    "Barlow Condensed", "Arial Narrow", "Roboto Condensed",
+                    sans-serif;
+                --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
+                --font-serif: "Lora", Georgia, serif;
+            }
+        </style>
+
+        <style>
+            html {
+                scroll-padding-top: 8rem;
+                scroll-behavior: smooth;
+            }
+
+            body {
+                background-color: #f5efe5;
+            }
+
+            :focus-visible {
+                outline: 3px solid #e8b64c;
+                outline-offset: 3px;
+            }
+
+            .grain {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .24 0 0 0 0 .14 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            }
+
+            .rays {
+                background:
+                    repeating-conic-gradient(
+                        from -14deg at 82% 112%,
+                        rgba(255, 240, 200, 0.055) 0 4.5deg,
+                        transparent 4.5deg 9deg
+                    ),
+                    radial-gradient(
+                        120% 95% at 82% 112%,
+                        #873b32 0%,
+                        #54251f 52%,
+                        #331612 100%
+                    );
+            }
+
+            .dark {
+                --sh: #c49a60;
+            }
+
+            .card-hard {
+                border: 2px solid #392821;
+                box-shadow: 6px 6px 0 #392821;
+                background: #fcf9f3;
+                transition:
+                    transform 0.2s ease,
+                    box-shadow 0.2s ease;
+            }
+
+            .card-hard.lift:hover {
+                transform: translate(-3px, -3px);
+                box-shadow: 9px 9px 0 #392821;
+            }
+
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.6rem;
+                font-family: "Barlow Condensed", sans-serif;
+                font-weight: 700;
+                font-size: 1.1rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                padding: 0.75rem 1.5rem;
+                border: 2px solid #392821;
+                box-shadow: 4px 4px 0 #392821;
+                transition:
+                    transform 0.15s ease,
+                    box-shadow 0.15s ease;
+                text-align: center;
+            }
+
+            .btn:hover {
+                transform: translate(-2px, -2px);
+                box-shadow: 6px 6px 0 #392821;
+            }
+
+            .btn-paper {
+                background: #fcf9f3;
+                color: #392821;
+            }
+
+            .btn-brick {
+                background: #873b32;
+                color: #fcf9f3;
+                border-color: #392821;
+            }
+
+            .header-inner {
+                height: 4.6rem;
+                transition: height 0.3s ease;
+            }
+
+            #site-header.is-scrolled .header-inner {
+                height: 3.8rem;
+            }
+
+            #site-header.is-scrolled {
+                box-shadow: 0 8px 0 -4px rgba(0, 0, 0, 0.25);
+            }
+
+            .video-frame {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 16 / 9;
+                background: #392821;
+                overflow: hidden;
+            }
+
+            .video-frame iframe {
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+
+            @media (prefers-reduced-motion: reduce) {
+                .card-hard,
+                .btn {
+                    transition: none;
+                }
+
+                html {
+                    scroll-behavior: auto;
+                }
+            }
+        </style>
+    </head>
+
+    <body class="grain font-sans text-umber antialiased">
+        <a
+            href="#noi-dung"
+            class="sr-only focus:not-sr-only focus:fixed focus:z-[70] focus:top-2 focus:left-2 focus:bg-ivory focus:text-brick focus:px-4 focus:py-2"
+        >
+            Bỏ qua điều hướng
+        </a>
+
+        <!-- HEADER -->
+        <header
+            id="site-header"
+            class="dark fixed inset-x-0 top-0 z-50 border-b-[3px] border-star bg-umber text-ivory"
+        >
+            <div
+                class="header-inner mx-auto flex max-w-7xl items-center justify-between px-5 lg:px-8"
+            >
+                <a
+                    href="../index.html"
+                    class="inline-flex items-center gap-3"
+                    aria-label="Địa Chỉ Đỏ Đồng Nai, về trang chủ"
+                >
+                    <svg
+                        viewBox="0 0 48 56"
+                        class="h-10 w-auto shrink-0"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M24 54C24 54 6 33 6 20a18 18 0 0 1 36 0c0 13-18 34-18 34Z"
+                            fill="#873B32"
+                            stroke="#E8B64C"
+                            stroke-width="2.5"
+                            stroke-linejoin="round"
+                        />
+                        <polygon
+                            points="24.00,10.40 26.35,16.76 33.13,17.03 27.80,21.24 29.64,27.77 24.00,24.00 18.36,27.77 20.20,21.24 14.87,17.03 21.65,16.76"
+                            fill="#E8B64C"
+                        />
+                    </svg>
+
+                    <span class="leading-none">
+                        <span
+                            class="block font-display font-extrabold text-[1.6rem] tracking-wide text-ivory"
+                        >
+                            ĐỊA CHỈ ĐỎ
+                        </span>
+                        <span
+                            class="mt-1 inline-block bg-star px-2 py-0.5 font-display text-[.78rem] font-bold tracking-[0.32em] text-umber"
+                        >
+                            ĐỒNG NAI
+                        </span>
+                    </span>
+                </a>
+
+                <nav
+                    class="hidden items-center gap-9 text-[.95rem] lg:flex"
+                    aria-label="Điều hướng chính"
+                >
+                    <a
+                        href="../index.html"
+                        class="border-b-[3px] py-1.5 font-semibold transition border-transparent text-ivory/85 hover:text-star"
+                    >
+                        Trang chủ
+                    </a>
+                    <a
+                        href="../index.html#dia-chi"
+                        class="border-b-[3px] py-1.5 font-semibold transition border-star text-star"
+                        aria-current="page"
+                    >
+                        Các địa chỉ đỏ
+                    </a>
+                    <a
+                        href="../map.html"
+                        class="border-b-[3px] py-1.5 font-semibold transition border-transparent text-ivory/85 hover:text-star"
+                    >
+                        Bản đồ
+                    </a>
+                </nav>
+
+                <button
+                    id="menu-btn"
+                    type="button"
+                    class="grid size-11 place-items-center border-2 border-bronze text-ivory lg:hidden"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    aria-label="Mở menu"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <nav
+                id="mobile-menu"
+                class="hidden border-t border-bronze/30 bg-umber text-[.95rem] lg:hidden"
+                aria-label="Điều hướng di động"
+            >
+                <a
+                    href="../index.html"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold text-ivory/90"
+                >
+                    Trang chủ
+                </a>
+                <a
+                    href="../index.html#dia-chi"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold text-star"
+                >
+                    Các địa chỉ đỏ
+                </a>
+                <a
+                    href="../map.html"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold text-ivory/90"
+                >
+                    Bản đồ
+                </a>
+            </nav>
+        </header>
+
+        <main id="noi-dung" class="pt-[4.6rem]">
+            <!-- HERO -->
+            <section
+                class="rays dark relative isolate overflow-hidden text-ivory"
+            >
+                <div
+                    class="mx-auto max-w-7xl px-5 pb-16 pt-14 lg:px-8 lg:pb-20 lg:pt-16"
+                >
+                    <nav aria-label="Breadcrumb" class="text-sm text-ivory/80">
+                        <ol class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                            <li>
+                                <a
+                                    class="underline-offset-4 hover:text-star hover:underline"
+                                    href="../index.html"
+                                >
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li aria-hidden="true" class="text-bronze">/</li>
+                            <li>
+                                <a
+                                    class="underline-offset-4 hover:text-star hover:underline"
+                                    href="index.html"
+                                >
+                                    Văn miếu Trấn Biên
+                                </a>
+                            </li>
+                            <li aria-hidden="true" class="text-bronze">/</li>
+                            <li class="text-star" aria-current="page">Video</li>
+                        </ol>
+                    </nav>
+
+                    <p
+                        class="mt-10 font-display text-sm font-bold uppercase tracking-[0.25em] text-star"
+                    ></p>
+
+                    <h1
+                        class="mt-4 max-w-4xl font-display text-[clamp(2.7rem,7vw,5.6rem)] font-extrabold uppercase leading-[1.04]"
+                    >
+                        Những thước phim về miền đất văn hiến
+                    </h1>
+
+                    <p
+                        class="mt-6 max-w-2xl font-serif text-lg leading-9 text-ivory/85"
+                    >
+                        Từ năm 1715, Văn miếu Trấn Biên đã trở thành một dấu mốc
+                        đặc biệt trong lịch sử văn hóa và giáo dục ở phương Nam.
+                        Trải qua biến động lịch sử, công trình được khôi phục
+                        vào năm 1998 và hoàn thành năm 2002. Những thước phim
+                        dưới đây sẽ đưa người xem đến gần hơn với kiến trúc,
+                        lịch sử và những giá trị mà di tích đang gìn giữ.
+                    </p>
+                </div>
+            </section>
+
+            <!-- TAB BAR -->
+            <div
+                class="sticky top-[3.8rem] z-40 border-b-2 border-umber bg-ivory"
+            >
+                <div
+                    id="tabbar"
+                    class="relative mx-auto flex max-w-7xl items-stretch gap-1 overflow-x-auto px-5 lg:px-8"
+                >
+                    <a
+                        href="index.html"
+                        class="mr-auto flex items-center gap-2 whitespace-nowrap py-3 pr-6 font-display text-xl font-bold text-oxblood"
+                    >
+                        <i
+                            class="fa-solid fa-location-dot text-brick text-base"
+                        ></i>
+                        Văn miếu Trấn Biên
+                    </a>
+
+                    <a
+                        href="index.html"
+                        class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition text-umber/80 hover:bg-kraft"
+                    >
+                        <i class="fa-solid fa-landmark text-xs"></i>
+                        Tổng quan
+                    </a>
+
+                    <a
+                        href="index.html#cau-chuyen"
+                        class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition text-umber/80 hover:bg-kraft"
+                    >
+                        <i class="fa-solid fa-book-open text-xs"></i>
+                        Câu chuyện
+                    </a>
+
+                    <a
+                        href="gallery.html"
+                        class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition text-umber/80 hover:bg-kraft"
+                    >
+                        <i class="fa-solid fa-images text-xs"></i>
+                        Hình ảnh
+                    </a>
+
+                    <a
+                        href="video.html"
+                        class="flex items-center gap-2 whitespace-nowrap px-4 py-3 text-sm font-semibold transition bg-star text-umber"
+                        aria-current="page"
+                    >
+                        <i class="fa-solid fa-circle-play text-xs"></i>
+                        Video
+                    </a>
+                </div>
+            </div>
+
+            <!-- VIDEO LIBRARY -->
+            <section class="py-16 lg:py-24">
+                <div class="mx-auto max-w-7xl px-5 lg:px-8">
+                    <div class="mb-10 max-w-2xl">
+                        <p
+                            class="font-display text-sm font-bold uppercase tracking-[0.2em] text-brick"
+                        >
+                            TƯ LIỆU HÌNH ẢNH
+                        </p>
+
+                        <h2
+                            class="mt-2 font-display text-4xl font-extrabold uppercase text-oxblood"
+                        >
+                            Khám phá Văn miếu Trấn Biên
+                        </h2>
+
+                        <p class="mt-4 text-sm leading-7 text-umber/75">
+                            Những video được tuyển chọn giúp người xem hình dung
+                            rõ hơn về không gian Văn miếu, lịch sử hình thành và
+                            vai trò của di tích trong đời sống văn hóa Đồng Nai.
+                            Video được nhúng trực tiếp từ YouTube để thuận tiện
+                            theo dõi.
+                        </p>
+                    </div>
+
+                    <div class="grid gap-10 md:grid-cols-2">
+                        <!-- VIDEO 01 -->
+                        <article class="card-hard lift">
+                            <p
+                                class="flex items-center gap-2 border-b-2 border-umber bg-umber px-4 py-2 text-xs font-semibold text-star"
+                            >
+                                <i class="fa-brands fa-youtube"></i>
+                                VIDEO GIỚI THIỆU · VIVU VIETNAM
+                            </p>
+
+                            <div class="video-frame">
+                                <iframe
+                                    src="https://www.youtube.com/embed/MdKqUnLYd8Q"
+                                    title="Văn Miếu Trấn Biên | Du lịch Biên Hòa - Đồng Nai"
+                                    loading="lazy"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allow="
+                                        accelerometer;
+                                        autoplay;
+                                        clipboard-write;
+                                        encrypted-media;
+                                        gyroscope;
+                                        picture-in-picture;
+                                        web-share;
+                                    "
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="p-6">
+                                <p
+                                    class="font-display text-xs font-bold uppercase tracking-[0.15em] text-brick"
+                                >
+                                    LỊCH SỬ VÀ KIẾN TRÚC
+                                </p>
+
+                                <h3
+                                    class="mt-2 font-display text-[1.7rem] font-bold uppercase leading-[1.08] text-oxblood"
+                                >
+                                    Văn miếu Trấn Biên | Du lịch Biên Hòa - Đồng
+                                    Nai
+                                </h3>
+
+                                <p class="mt-3 text-sm leading-7 text-umber/80">
+                                    Video giới thiệu tổng quan về Văn miếu Trấn
+                                    Biên, từ lịch sử hình thành năm 1715, dấu
+                                    mốc bị phá hủy năm 1861 đến quá trình khôi
+                                    phục công trình vào giai đoạn 1998-2002. Đây
+                                    là tư liệu phù hợp để bắt đầu tìm hiểu về di
+                                    tích.
+                                </p>
+
+                                <p class="mt-3 text-xs text-umber/55">
+                                    Kênh: Vivu Vietnam · Đăng tải: 27/05/2019
+                                </p>
+
+                                <a
+                                    href="https://www.youtube.com/watch?v=MdKqUnLYd8Q"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="mt-5 inline-block font-display text-lg font-bold uppercase text-brick underline decoration-star decoration-[3px] underline-offset-[6px] hover:text-oxblood"
+                                >
+                                    Xem trên YouTube
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square ml-1 text-sm"
+                                    ></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- VIDEO 02 -->
+                        <article class="card-hard lift">
+                            <p
+                                class="flex items-center gap-2 border-b-2 border-umber bg-umber px-4 py-2 text-xs font-semibold text-star"
+                            >
+                                <i class="fa-brands fa-youtube"></i>
+                                VIDEO VĂN HÓA · ĐỒNG NAI AN NHIÊN
+                            </p>
+
+                            <div class="video-frame">
+                                <iframe
+                                    src="https://www.youtube.com/embed/iJleo3Z3EkE"
+                                    title="Văn Miếu Trấn Biên - Nơi lưu giữ những giá trị văn hóa ở Đồng Nai"
+                                    loading="lazy"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allow="
+                                        accelerometer;
+                                        autoplay;
+                                        clipboard-write;
+                                        encrypted-media;
+                                        gyroscope;
+                                        picture-in-picture;
+                                        web-share;
+                                    "
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="p-6">
+                                <p
+                                    class="font-display text-xs font-bold uppercase tracking-[0.15em] text-brick"
+                                >
+                                    GIÁ TRỊ VĂN HÓA
+                                </p>
+
+                                <h3
+                                    class="mt-2 font-display text-[1.7rem] font-bold uppercase leading-[1.08] text-oxblood"
+                                >
+                                    Nơi lưu giữ những giá trị văn hóa ở Đồng Nai
+                                </h3>
+
+                                <p class="mt-3 text-sm leading-7 text-umber/80">
+                                    Được xây dựng từ năm 1715, Văn miếu Trấn
+                                    Biên gắn với hành trình mở cõi về phương Nam
+                                    và truyền thống coi trọng tri thức, hiền
+                                    tài. Video gợi mở góc nhìn về ý nghĩa văn
+                                    hóa của công trình đối với vùng đất Đồng
+                                    Nai.
+                                </p>
+
+                                <p class="mt-3 text-xs text-umber/55">
+                                    Kênh: Đồng Nai An Nhiên · Đăng tải:
+                                    13/10/2024
+                                </p>
+
+                                <a
+                                    href="https://www.youtube.com/watch?v=iJleo3Z3EkE"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="mt-5 inline-block font-display text-lg font-bold uppercase text-brick underline decoration-star decoration-[3px] underline-offset-[6px] hover:text-oxblood"
+                                >
+                                    Xem trên YouTube
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square ml-1 text-sm"
+                                    ></i>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- VIDEO 03 -->
+                        <article class="card-hard lift md:col-span-2">
+                            <p
+                                class="flex items-center gap-2 border-b-2 border-umber bg-umber px-4 py-2 text-xs font-semibold text-star"
+                            >
+                                <i class="fa-brands fa-youtube"></i>
+                                VIDEO THAM QUAN · TRẢI NGHIỆM THỰC TẾ
+                            </p>
+
+                            <div class="video-frame">
+                                <iframe
+                                    src="https://www.youtube.com/embed/E6sPplY6C6I"
+                                    title="LL tham quan Văn Miếu Trấn Biên - Đồng Nai"
+                                    loading="lazy"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allow="
+                                        accelerometer;
+                                        autoplay;
+                                        clipboard-write;
+                                        encrypted-media;
+                                        gyroscope;
+                                        picture-in-picture;
+                                        web-share;
+                                    "
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+
+                            <div class="p-6">
+                                <p
+                                    class="font-display text-xs font-bold uppercase tracking-[0.15em] text-brick"
+                                >
+                                    GÓC NHÌN NGƯỜI THAM QUAN
+                                </p>
+
+                                <h3
+                                    class="mt-2 font-display text-[1.7rem] font-bold uppercase leading-[1.08] text-oxblood"
+                                >
+                                    Một chuyến tham quan Văn miếu Trấn Biên
+                                </h3>
+
+                                <p class="mt-3 text-sm leading-7 text-umber/80">
+                                    Khác với những video thiên về giới thiệu
+                                    lịch sử, thước phim này ghi lại hành trình
+                                    tham quan Văn miếu Trấn Biên. Người xem có
+                                    thể quan sát không gian thực tế và cảm nhận
+                                    vẻ trang nghiêm của một công trình văn hóa
+                                    giữa lòng Đồng Nai.
+                                </p>
+
+                                <p class="mt-3 text-xs text-umber/55">
+                                    Kênh: Thích tự đi du lịch dọc miền đất nước
+                                    · Đăng tải: 11/11/2025
+                                </p>
+
+                                <a
+                                    href="https://www.youtube.com/watch?v=E6sPplY6C6I"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="mt-5 inline-block font-display text-lg font-bold uppercase text-brick underline decoration-star decoration-[3px] underline-offset-[6px] hover:text-oxblood"
+                                >
+                                    Xem trên YouTube
+                                    <i
+                                        class="fa-solid fa-arrow-up-right-from-square ml-1 text-sm"
+                                    ></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- RELATED VIDEO -->
+                    <div
+                        class="mt-16 border-2 border-umber bg-kraft p-6 md:p-8"
+                    >
+                        <div
+                            class="flex flex-col gap-5 md:flex-row md:items-center md:justify-between"
+                        >
+                            <div class="max-w-2xl">
+                                <p
+                                    class="font-display text-sm font-bold uppercase tracking-[0.2em] text-brick"
+                                >
+                                    TƯ LIỆU BÁO CHÍ
+                                </p>
+
+                                <h3
+                                    class="mt-2 font-display text-2xl font-bold uppercase text-oxblood"
+                                >
+                                    Văn miếu Trấn Biên - Văn miếu đầu tiên ở
+                                    phương Nam
+                                </h3>
+
+                                <p class="mt-3 text-sm leading-7 text-umber/80">
+                                    Phóng sự ngắn do Báo Đồng Nai thực hiện,
+                                    đăng tải ngày 18/05/2026. Đây là nguồn tư
+                                    liệu báo chí bổ sung cho các video YouTube
+                                    trong thư viện.
+                                </p>
+                            </div>
+
+                            <a
+                                href="https://baodongnai.com.vn/short-video/202605/van-mieu-tran-bien-van-mieu-dau-tien-o-phuong-nam-ed40d17/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn btn-brick shrink-0"
+                            >
+                                Xem phóng sự
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square"
+                                ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- NAVIGATION -->
+                    <div
+                        class="mt-16 flex flex-wrap gap-5 border-t-2 border-umber pt-10"
+                    >
+                        <a href="index.html" class="btn btn-paper">
+                            Về trang địa chỉ
+                        </a>
+
+                        <a href="gallery.html" class="btn btn-brick">
+                            Thư viện ảnh
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="dark bg-umber text-ivory/80">
+            <div class="mx-auto max-w-7xl px-5 pt-16 lg:px-8">
+                <p
+                    class="font-display text-[clamp(2.6rem,9vw,7.5rem)] font-extrabold uppercase leading-[1.02] text-transparent [-webkit-text-stroke:2px_#C49A60]"
+                >
+                    Uống nước nhớ nguồn
+                </p>
+            </div>
+
+            <div
+                class="mx-auto grid max-w-7xl gap-12 px-5 py-14 md:grid-cols-12 lg:px-8"
+            >
+                <div class="md:col-span-5">
+                    <a
+                        href="../index.html"
+                        class="inline-flex items-center gap-3"
+                        aria-label="Địa Chỉ Đỏ Đồng Nai, về trang chủ"
+                    >
+                        <svg
+                            viewBox="0 0 48 56"
+                            class="h-12 w-auto shrink-0"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M24 54C24 54 6 33 6 20a18 18 0 0 1 36 0c0 13-18 34-18 34Z"
+                                fill="#873B32"
+                                stroke="#E8B64C"
+                                stroke-width="2.5"
+                                stroke-linejoin="round"
+                            />
+                            <polygon
+                                points="24.00,10.40 26.35,16.76 33.13,17.03 27.80,21.24 29.64,27.77 24.00,24.00 18.36,27.77 20.20,21.24 14.87,17.03 21.65,16.76"
+                                fill="#E8B64C"
+                            />
+                        </svg>
+
+                        <span class="leading-none">
+                            <span
+                                class="block font-display font-extrabold text-[1.9rem] tracking-wide text-ivory"
+                            >
+                                ĐỊA CHỈ ĐỎ
+                            </span>
+                            <span
+                                class="mt-1 inline-block bg-star px-2 py-0.5 font-display text-[.78rem] font-bold tracking-[0.32em] text-umber"
+                            >
+                                ĐỒNG NAI
+                            </span>
+                        </span>
+                    </a>
+
+                    <p class="mt-6 max-w-sm text-sm leading-7">
+                        Dự án số hóa và lan tỏa giá trị lịch sử của các di tích,
+                        địa danh cách mạng trên địa bàn tỉnh Đồng Nai, đến gần
+                        hơn với thế hệ trẻ.
+                    </p>
+                </div>
+
+                <div class="md:col-span-3">
+                    <h2 class="font-display text-xl font-bold text-star">
+                        Khám phá
+                    </h2>
+
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="../index.html"
+                            >
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="../index.html#dia-chi"
+                            >
+                                Các địa chỉ đỏ
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="../map.html"
+                            >
+                                Bản đồ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-4">
+                    <h2 class="font-display text-xl font-bold text-star">
+                        Nguồn tư liệu
+                    </h2>
+
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="https://dufo.dongnai.gov.vn/Pages/newsdetail.aspx?CatId=96&NewsId=2089"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                DUFO Đồng Nai - Văn miếu Trấn Biên
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="https://tranbien.dongnai.gov.vn/vi/gioi-thieu/tong-quan.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                UBND phường Trấn Biên
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="https://baodongnai.com.vn/short-video/202605/van-mieu-tran-bien-van-mieu-dau-tien-o-phuong-nam-ed40d17/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Báo Đồng Nai
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                class="transition hover:text-star"
+                                href="https://dongnai.gov.vn/vi/news/Hoc-tap-lam-theo-tam-guong-dao-duc-Ho-Chi-Minh/dang-huong-tuong-nho-chu-tich-ho-chi-minh-tai-van-mieu-tran-bien-61745.html"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Cổng thông tin điện tử Đồng Nai
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p class="mt-6 text-xs leading-6 text-ivory/55">
+                        Video được nhúng từ YouTube và các nguồn báo chí được
+                        dẫn trong từng mục. Bản quyền nội dung thuộc về các đơn
+                        vị và chủ sở hữu tương ứng.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border-t border-bronze/25">
+                <p
+                    class="mx-auto max-w-7xl px-5 py-6 text-xs text-ivory/55 lg:px-8"
+                >
+                    © 2026 Địa Chỉ Đỏ Đồng Nai. Dự án số hóa và lan tỏa giá trị
+                    lịch sử.
+                </p>
+            </div>
+        </footer>
+
+        <!-- SCRIPTS -->
+        <script>
+            (function () {
+                var header = document.getElementById("site-header");
+
+                function onScroll() {
+                    header.classList.toggle("is-scrolled", window.scrollY > 24);
+                }
+
+                onScroll();
+                window.addEventListener("scroll", onScroll, {
+                    passive: true,
+                });
+
+                // Mobile menu
+                var btn = document.getElementById("menu-btn");
+                var menu = document.getElementById("mobile-menu");
+
+                btn.addEventListener("click", function () {
+                    var open = menu.classList.toggle("hidden") === false;
+
+                    btn.setAttribute("aria-expanded", open ? "true" : "false");
+
+                    btn.setAttribute(
+                        "aria-label",
+                        open ? "Đóng menu" : "Mở menu",
+                    );
+
+                    btn.querySelector("i").className = open
+                        ? "fa-solid fa-xmark"
+                        : "fa-solid fa-bars";
+                });
+
+                menu.querySelectorAll("a").forEach(function (a) {
+                    a.addEventListener("click", function () {
+                        menu.classList.add("hidden");
+                        btn.setAttribute("aria-expanded", "false");
+                        btn.setAttribute("aria-label", "Mở menu");
+                        btn.querySelector("i").className = "fa-solid fa-bars";
+                    });
+                });
+
+                // Tự căn tab đang được chọn trên màn hình nhỏ
+                var tabbar = document.getElementById("tabbar");
+
+                if (tabbar) {
+                    var cur = tabbar.querySelector('[aria-current="page"]');
+
+                    if (cur) {
+                        tabbar.scrollLeft = Math.max(
+                            0,
+                            cur.offsetLeft -
+                                tabbar.clientWidth / 2 +
+                                cur.offsetWidth / 2,
+                        );
+                    }
+                }
+            })();
+        </script>
+    </body>
+</html>
