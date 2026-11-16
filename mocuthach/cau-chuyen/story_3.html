@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Từ phát hiện khảo cổ đến di tích quốc gia đặc biệt | Địa Chỉ Đỏ Đồng
+            Nai
+        </title>
+        <meta
+            name="description"
+            content="Tìm hiểu hành trình nghiên cứu, phát hiện khu chế tác đá và quá trình bảo tồn Mộ Cự thạch Hàng Gòn, từ những phát hiện khảo cổ đến khi được xếp hạng Di tích quốc gia đặc biệt năm 2015."
+        />
+        <meta name="theme-color" content="#54251f" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style type="text/tailwindcss">
+            @theme {
+                --color-oxblood: #54251f;
+                --color-brick: #873b32;
+                --color-clay: #a94e3d;
+                --color-umber: #392821;
+                --color-paper: #f5efe5;
+                --color-ivory: #fcf9f3;
+                --color-bronze: #c49a60;
+                --color-star: #e8b64c;
+                --color-kraft: #e9dcc3;
+                --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+                --font-sans: "Be Vietnam Pro", system-ui, sans-serif;
+                --font-serif: "Lora", Georgia, serif;
+            }
+        </style>
+        <style>
+            html {
+                scroll-behavior: smooth;
+                scroll-padding-top: 8rem;
+            }
+            body {
+                background: #f5efe5;
+            }
+            :focus-visible {
+                outline: 3px solid #e8b64c;
+                outline-offset: 3px;
+            }
+            .grain {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .24 0 0 0 0 .14 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            }
+            .rays {
+                background:
+                    repeating-conic-gradient(
+                        from -14deg at 82% 112%,
+                        rgba(255, 240, 200, 0.055) 0 4.5deg,
+                        transparent 4.5deg 9deg
+                    ),
+                    radial-gradient(
+                        120% 95% at 82% 112%,
+                        #873b32 0%,
+                        #54251f 52%,
+                        #331612 100%
+                    );
+            }
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.6rem;
+                font-family: var(--font-display);
+                font-weight: 700;
+                font-size: 1.05rem;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                padding: 0.75rem 1.4rem;
+                border: 2px solid #392821;
+                box-shadow: 4px 4px 0 #392821;
+                transition: 0.15s;
+                text-align: center;
+            }
+            .btn:hover {
+                transform: translate(-2px, -2px);
+                box-shadow: 6px 6px 0 #392821;
+            }
+            .btn-brick {
+                background: #873b32;
+                color: #fcf9f3;
+            }
+            .btn-paper {
+                background: #fcf9f3;
+                color: #392821;
+            }
+            .card-hard {
+                border: 2px solid #392821;
+                box-shadow: 6px 6px 0 #392821;
+                background: #fcf9f3;
+            }
+            .duo {
+                overflow: hidden;
+                background: #54251f;
+            }
+            .duo img {
+                filter: sepia(0.7) hue-rotate(-25deg) saturate(1.35);
+                transition:
+                    filter 0.5s,
+                    transform 0.7s;
+            }
+            .duo:hover img {
+                filter: none;
+                transform: scale(1.035);
+            }
+            .header-inner {
+                height: 4.6rem;
+                transition: height 0.3s;
+            }
+            #site-header.is-scrolled .header-inner {
+                height: 3.8rem;
+            }
+            #site-header.is-scrolled {
+                box-shadow: 0 8px 0 -4px rgba(0, 0, 0, 0.25);
+            }
+            .dropcap:first-letter {
+                font-family: var(--font-display);
+                font-weight: 800;
+                color: #873b32;
+                float: left;
+                font-size: 5.2rem;
+                line-height: 0.78;
+                padding: 0.35rem 0.6rem 0 0;
+            }
+            @media (prefers-reduced-motion: reduce) {
+                html {
+                    scroll-behavior: auto;
+                }
+                .duo img,
+                .btn {
+                    transition: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="grain font-sans text-umber antialiased">
+        <a
+            href="#noi-dung"
+            class="sr-only focus:not-sr-only focus:fixed focus:z-[70] focus:top-2 focus:left-2 focus:bg-ivory focus:text-brick focus:px-4 focus:py-2"
+            >Bỏ qua điều hướng</a
+        >
+        <div
+            id="progress"
+            class="fixed left-0 top-0 z-[60] h-1.5 w-0 bg-star"
+            aria-hidden="true"
+        ></div>
+
+        <header
+            id="site-header"
+            class="fixed inset-x-0 top-0 z-50 border-b-[3px] border-star bg-umber text-ivory"
+        >
+            <div
+                class="header-inner mx-auto flex max-w-7xl items-center justify-between px-5 lg:px-8"
+            >
+                <a
+                    href="../../index.html"
+                    class="inline-flex items-center gap-3"
+                    aria-label="Địa Chỉ Đỏ Đồng Nai, về trang chủ"
+                >
+                    <svg
+                        viewBox="0 0 48 56"
+                        class="h-10 w-auto shrink-0"
+                        aria-hidden="true"
+                    >
+                        <path
+                            d="M24 54C24 54 6 33 6 20a18 18 0 0 1 36 0c0 13-18 34-18 34Z"
+                            fill="#873B32"
+                            stroke="#E8B64C"
+                            stroke-width="2.5"
+                        />
+                        <polygon
+                            points="24,10.4 26.35,16.76 33.13,17.03 27.8,21.24 29.64,27.77 24,24 18.36,27.77 20.2,21.24 14.87,17.03 21.65,16.76"
+                            fill="#E8B64C"
+                        />
+                    </svg>
+                    <span class="leading-none">
+                        <span
+                            class="block font-display font-extrabold text-2xl tracking-wide"
+                            >ĐỊA CHỈ ĐỎ</span
+                        >
+                        <span
+                            class="mt-1 inline-block bg-star px-2 py-0.5 font-display text-xs font-bold tracking-[0.32em] text-umber"
+                            >ĐỒNG NAI</span
+                        >
+                    </span>
+                </a>
+                <nav
+                    class="hidden items-center gap-9 text-sm lg:flex"
+                    aria-label="Điều hướng chính"
+                >
+                    <a
+                        href="../../index.html"
+                        class="py-2 font-semibold text-ivory/85 hover:text-star"
+                        >Trang chủ</a
+                    >
+                    <a
+                        href="../../index.html#dia-chi"
+                        class="border-b-[3px] border-star py-2 font-semibold text-star"
+                        aria-current="page"
+                        >Các địa chỉ đỏ</a
+                    >
+                    <a
+                        href="../../map.html"
+                        class="py-2 font-semibold text-ivory/85 hover:text-star"
+                        >Bản đồ</a
+                    >
+                </nav>
+                <button
+                    id="menu-btn"
+                    type="button"
+                    class="grid size-11 place-items-center border-2 border-bronze text-ivory lg:hidden"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                    aria-label="Mở menu"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            <nav
+                id="mobile-menu"
+                class="hidden border-t border-bronze/30 bg-umber text-sm lg:hidden"
+                aria-label="Điều hướng di động"
+            >
+                <a
+                    href="../../index.html"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold"
+                    >Trang chủ</a
+                >
+                <a
+                    href="../../index.html#dia-chi"
+                    class="block border-b border-bronze/20 px-5 py-4 font-semibold text-star"
+                    >Các địa chỉ đỏ</a
+                >
+                <a href="../../map.html" class="block px-5 py-4 font-semibold"
+                    >Bản đồ</a
+                >
+            </nav>
+        </header>
+
+        <main id="noi-dung" class="pt-[4.6rem]">
+            <section
+                class="relative isolate overflow-hidden bg-umber text-ivory"
+            >
+                <div class="duo absolute inset-0 -z-20 opacity-55">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-2fyjIuTHTSUkkZXz7ge1ErGcVJGBrjBpCAZRUNIAh8ovUYa8WzXCU8I&s=10"
+                        alt="Cổng vào Di tích quốc gia đặc biệt Mộ Cự thạch Hàng Gòn"
+                        class="size-full object-cover"
+                        fetchpriority="high"
+                        decoding="async"
+                        referrerpolicy="no-referrer"
+                    />
+                </div>
+                <div
+                    class="absolute inset-0 -z-10 bg-gradient-to-t from-umber via-umber/65 to-oxblood/45"
+                ></div>
+                <div
+                    class="mx-auto flex min-h-[31rem] max-w-7xl flex-col justify-between gap-14 px-5 pb-14 pt-14 lg:min-h-[35rem] lg:px-8 lg:pb-16"
+                >
+                    <nav aria-label="Breadcrumb" class="text-sm text-ivory/80">
+                        <ol class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                            <li>
+                                <a
+                                    class="hover:text-star hover:underline"
+                                    href="../../index.html"
+                                    >Trang chủ</a
+                                >
+                            </li>
+                            <li aria-hidden="true">/</li>
+                            <li>
+                                <a
+                                    class="hover:text-star hover:underline"
+                                    href="../index.html"
+                                    >Mộ Cự thạch Hàng Gòn</a
+                                >
+                            </li>
+                            <li aria-hidden="true">/</li>
+                            <li class="text-star" aria-current="page">
+                                Câu chuyện 03
+                            </li>
+                        </ol>
+                    </nav>
+                    <div>
+                        <p
+                            class="mb-4 font-display text-xl font-bold tracking-[.2em] text-star"
+                        >
+                            CÂU CHUYỆN 03 · 1995–2015
+                        </p>
+                        <h1>
+                            <span
+                                class="block font-display text-[clamp(2.5rem,6vw,5rem)] font-extrabold leading-none text-star"
+                                >1995–2015 – HÀNH TRÌNH KHẲNG ĐỊNH GIÁ TRỊ</span
+                            >
+                            <span
+                                class="mt-4 block max-w-4xl font-display text-[clamp(2rem,4.6vw,3.8rem)] font-extrabold uppercase leading-[1.06]"
+                                >Từ phát hiện khảo cổ đến di tích quốc gia đặc
+                                biệt</span
+                            >
+                        </h1>
+                        <p
+                            class="mt-6 max-w-2xl font-serif text-xl italic leading-9 text-ivory/90"
+                        >
+                            Từ những dấu tích của một khu chế tác đá được phát
+                            hiện bên cạnh ngôi mộ cổ, hành trình nghiên cứu và
+                            bảo tồn đã góp phần làm sáng tỏ thêm giá trị của Mộ
+                            Cự thạch Hàng Gòn, trước khi di tích được xếp hạng
+                            quốc gia đặc biệt vào năm 2015.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div
+                class="sticky top-[3.8rem] z-40 border-b-2 border-umber bg-ivory"
+            >
+                <div
+                    id="tabbar"
+                    class="mx-auto flex max-w-7xl items-stretch gap-1 overflow-x-auto px-5 lg:px-8"
+                >
+                    <a
+                        href="../index.html"
+                        class="mr-auto flex items-center gap-2 whitespace-nowrap py-3 pr-6 font-display text-xl font-bold text-oxblood"
+                    >
+                        <i
+                            class="fa-solid fa-location-dot text-brick text-base"
+                        ></i>
+                        Mộ Cự thạch Hàng Gòn
+                    </a>
+                    <a
+                        href="../index.html"
+                        class="whitespace-nowrap px-4 py-3 text-sm font-semibold text-umber/80 hover:bg-kraft"
+                        ><i class="fa-solid fa-landmark mr-2 text-xs"></i>Tổng
+                        quan</a
+                    >
+                    <a
+                        href="../index.html#cau-chuyen"
+                        class="whitespace-nowrap bg-star px-4 py-3 text-sm font-semibold text-umber"
+                        aria-current="page"
+                        ><i class="fa-solid fa-book-open mr-2 text-xs"></i>Câu
+                        chuyện</a
+                    >
+                    <a
+                        href="../gallery.html"
+                        class="whitespace-nowrap px-4 py-3 text-sm font-semibold text-umber/80 hover:bg-kraft"
+                        ><i class="fa-solid fa-images mr-2 text-xs"></i>Hình
+                        ảnh</a
+                    >
+                    <a
+                        href="../video.html"
+                        class="whitespace-nowrap px-4 py-3 text-sm font-semibold text-umber/80 hover:bg-kraft"
+                        ><i class="fa-solid fa-circle-play mr-2 text-xs"></i
+                        >Video</a
+                    >
+                </div>
+            </div>
+
+            <section class="py-16 lg:py-24">
+                <div
+                    class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-12 lg:px-8"
+                >
+                    <aside class="self-start lg:sticky lg:top-40 lg:col-span-4">
+                        <div class="card-hard p-7">
+                            <h2
+                                class="font-display text-2xl font-bold uppercase text-oxblood"
+                            >
+                                Dòng thời gian
+                            </h2>
+                            <ol
+                                class="relative ml-1.5 mt-6 border-l-2 border-dashed border-bronze"
+                            >
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1927
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Jean Bouchot phát hiện và tiến hành khai
+                                        quật khu mộ cự thạch trong quá trình mở
+                                        tuyến đường Long Khánh – Bà Rịa.
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1982
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Được công nhận là Di tích Quốc gia
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1995
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Khu chế tác đá được phát hiện, mở ra
+                                        hướng nghiên cứu mới về hoạt động gia
+                                        công đá của cư dân cổ.
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        1996
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Cuộc khai quật tại khu chế tác phát hiện
+                                        nhiều phế liệu đá, tấm đan và các dấu
+                                        tích liên quan đến quá trình chế tác.
+                                    </p>
+                                </li>
+                                <li class="relative pb-7 pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        2011
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Di tích được tu bổ, tôn tạo với các hạng
+                                        mục phục vụ bảo tồn và giới thiệu giá
+                                        trị khảo cổ.
+                                    </p>
+                                </li>
+                                <li class="relative pl-8">
+                                    <span
+                                        class="absolute left-0 top-1.5 size-3 rotate-45 bg-brick ring-4 ring-ivory"
+                                    ></span>
+                                    <p
+                                        class="font-display text-xl font-bold text-brick"
+                                    >
+                                        23/12/2015
+                                    </p>
+                                    <p
+                                        class="mt-1 text-sm leading-6 text-umber/80"
+                                    >
+                                        Mộ Cự thạch Hàng Gòn được xếp hạng Di
+                                        tích quốc gia đặc biệt theo Quyết định
+                                        số 2367/QĐ-TTg.
+                                    </p>
+                                </li>
+                            </ol>
+                            <p
+                                class="mt-7 border-t border-kraft pt-5 text-xs leading-6 text-umber/65"
+                            >
+                                Dòng thời gian ghi lại những dấu mốc tiêu biểu
+                                trong quá trình phát hiện, nghiên cứu và bảo tồn
+                                di tích Mộ Cự thạch Hàng Gòn.
+                            </p>
+                        </div>
+                    </aside>
+
+                    <article
+                        class="font-serif text-[1.08rem] leading-[1.95] text-umber/90 lg:col-span-8 lg:max-w-3xl lg:pl-10"
+                    >
+                        <div
+                            class="mb-12 border-l-[6px] border-star bg-kraft/70 px-6 py-6"
+                        >
+                            <p
+                                class="font-sans text-xs font-bold uppercase tracking-[.18em] text-brick"
+                            >
+                                Tóm tắt câu chuyện
+                            </p>
+                            <p
+                                class="mt-3 font-serif text-lg leading-8 text-oxblood"
+                            >
+                                Năm 1995, khu chế tác đá gần Mộ Cự thạch Hàng
+                                Gòn được phát hiện, mở ra thêm nhiều câu hỏi về
+                                kỹ thuật và đời sống của cộng đồng cư dân cổ
+                                từng sinh sống trên vùng đất này. Cuộc khai quật
+                                năm 1996 tiếp tục ghi nhận hàng nghìn tiêu bản
+                                đá cùng những dấu tích gia công. Sau quá trình
+                                nghiên cứu, tu bổ và bảo tồn, ngày 23/12/2015,
+                                di tích chính thức được xếp hạng quốc gia đặc
+                                biệt. Đây không chỉ là sự ghi nhận đối với một
+                                công trình mộ đá độc đáo, mà còn là sự khẳng
+                                định giá trị khảo cổ của vùng đất Đồng Nai.
+                            </p>
+                        </div>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                1995 – Phát hiện thêm dấu tích của người xưa
+                            </h2>
+                            <p class="dropcap mb-6">
+                                Từ khi được phát hiện vào năm 1927, Mộ Cự thạch
+                                Hàng Gòn đã thu hút sự quan tâm của nhiều nhà
+                                nghiên cứu bởi kiến trúc đá đặc biệt. Tuy nhiên,
+                                những giá trị khảo cổ của khu vực này không chỉ
+                                nằm ở riêng công trình mộ. Năm 1995, khu chế tác
+                                đá gần khu hầm mộ được phát hiện, mở ra một
+                                hướng tìm hiểu mới về hoạt động của cư dân cổ
+                                tại Hàng Gòn.
+                            </p>
+                            <p class="mb-6">
+                                Phát hiện này có ý nghĩa bởi nó giúp các nhà
+                                nghiên cứu nhìn di tích trong một phạm vi rộng
+                                hơn. Bên cạnh câu hỏi về cách xây dựng một ngôi
+                                mộ bằng những phiến đá lớn, người ta còn có thêm
+                                cơ sở để tìm hiểu cách con người thời trước lựa
+                                chọn nguyên liệu, gia công đá và tổ chức hoạt
+                                động chế tác.
+                            </p>
+                            <p class="mb-6">
+                                Khu chế tác vì thế không đơn thuần là một phần
+                                phụ bên cạnh khu hầm mộ. Những dấu tích còn lại
+                                tại đây góp phần cho thấy quá trình tạo ra các
+                                sản phẩm đá có thể đã diễn ra ngay trong khu vực
+                                di tích. Từ một phát hiện ban đầu, địa điểm này
+                                dần trở thành nguồn tư liệu quan trọng để nghiên
+                                cứu kỹ thuật và đời sống của cộng đồng cư dân
+                                cổ.
+                            </p>
+                        </section>
+
+                        <figure class="card-hard relative my-14 p-3 pb-4">
+                            <span
+                                class="absolute -top-3 left-10 h-6 w-20 rotate-[-3deg] bg-star/70"
+                            ></span>
+                            <a
+                                href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfSPQsixHoP8X3SrKRilbOoNEe_T4O_nqx4AU40Bqu7us-0IEsHnnF6FH&s=10"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="block overflow-hidden bg-umber"
+                            >
+                                <img
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVfSPQsixHoP8X3SrKRilbOoNEe_T4O_nqx4AU40Bqu7us-0IEsHnnF6FH&s=10"
+                                    alt="Cổng vào Di tích quốc gia đặc biệt Mộ Cự thạch Hàng Gòn"
+                                    class="h-72 w-full object-cover lg:h-[26rem]"
+                                    loading="lazy"
+                                    decoding="async"
+                                    referrerpolicy="no-referrer"
+                                />
+                            </a>
+                            <figcaption
+                                class="px-1 pt-3 font-sans text-xs leading-6 text-umber/70"
+                            >
+                                Lễ hội Vía ông Đá tại di tích Mộ cự thạch Hàng
+                                Gòn thu hút người dân và du khách tham gia.
+                                Ảnh:MyNy
+                            </figcaption>
+                        </figure>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                1996 – Những dấu tích hé lộ kỹ thuật chế tác đá
+                            </h2>
+                            <p class="mb-6">
+                                Tiếp nối phát hiện năm 1995, cuộc khai quật tại
+                                khu chế tác vào năm 1996 đã ghi nhận nhiều dấu
+                                tích đáng chú ý. Các nhà khảo cổ tìm thấy những
+                                tấm đan bằng đá hoa cương, hai trụ đá sa thạch
+                                cùng nhiều phế liệu đá hoa cương và đá cuội.
+                                Những hiện vật này góp phần làm rõ hơn hoạt động
+                                gia công đá từng diễn ra tại khu vực.
+                            </p>
+                            <p class="mb-6">
+                                Theo tư liệu của Cục Di sản văn hóa, cuộc khai
+                                quật đã thống kê được 4.413 tiêu bản đồ đá,
+                                trong đó có 299 phế vật đá hoa cương và 4.114
+                                phế vật đá cuội. Ngoài ra còn có các tiêu bản
+                                bằng đồng và gốm. Những mảnh đá bị tách, vỡ cùng
+                                dấu vết đục, gọt trên các phiến đá là bằng chứng
+                                quan trọng giúp các nhà nghiên cứu nhận diện
+                                hoạt động chế tác của người xưa.
+                            </p>
+                            <p class="mb-6">
+                                Có thể hình dung rằng, để tạo nên những phiến đá
+                                lớn dùng trong công trình, người thợ thời cổ
+                                phải có hiểu biết nhất định về vật liệu, kỹ
+                                thuật gia công và cách tổ chức lao động. Những
+                                phế liệu tưởng chừng nhỏ bé còn sót lại qua hàng
+                                nghìn năm lại trở thành nguồn thông tin quý giá,
+                                giúp chúng ta hình dung rõ hơn về trình độ kỹ
+                                thuật của cộng đồng cư dân từng sinh sống tại
+                                đây.
+                            </p>
+                            <p class="mb-6">
+                                Việc phát hiện khu chế tác cũng khiến giá trị
+                                của Mộ Cự thạch Hàng Gòn được nhìn nhận đầy đủ
+                                hơn. Di tích không chỉ lưu giữ một công trình mộ
+                                đá có kiến trúc độc đáo, mà còn chứa đựng những
+                                dấu tích về hoạt động sản xuất và kỹ thuật của
+                                con người trong quá khứ.
+                            </p>
+                        </section>
+
+                        <figure class="card-hard relative my-14 p-3 pb-4">
+                            <span
+                                class="absolute -top-3 left-10 h-6 w-20 rotate-[-3deg] bg-star/70"
+                            ></span>
+                            <a
+                                href="https://cdn2.tuoitre.vn/nld/291774122806476800/2024/2/14/img1350-17078807975202113013231.jpeg"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="block overflow-hidden bg-umber"
+                            >
+                                <img
+                                    src="https://cdn2.tuoitre.vn/nld/291774122806476800/2024/2/14/img1350-17078807975202113013231.jpeg"
+                                    alt="Phiến đá tại khu Di tích khảo cổ Mộ Cự thạch Hàng Gòn"
+                                    class="h-72 w-full object-cover lg:h-[26rem]"
+                                    loading="lazy"
+                                    decoding="async"
+                                    referrerpolicy="no-referrer"
+                                />
+                            </a>
+                            <figcaption
+                                class="px-1 pt-3 font-sans text-xs leading-6 text-umber/70"
+                            >
+                                i tích là một nấm mồ được làm bởi những tấm đá
+                                hoa cương lớn và những trụ đá dài, nặng khoảng
+                                30-40 tấn. Ngôi mộ hình hộp chữ nhật, dài 4,2m,
+                                ngang 2,7m, cao 1,6m được ghép bới 6 tấm đá hoa
+                                cương bào khá nhẵn mặt ngoài, bên trong đục đẽo
+                                sơ sài.
+                            </figcaption>
+                        </figure>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                2011 – Bảo tồn và phát huy giá trị di tích
+                            </h2>
+                            <p class="mb-6">
+                                Cùng với quá trình nghiên cứu, công tác bảo tồn
+                                Mộ Cự thạch Hàng Gòn cũng được chú trọng. Năm
+                                2011, di tích được tiến hành tu bổ, tôn tạo với
+                                tổng mặt bằng 37.120 m². Các hạng mục được triển
+                                khai bao gồm khu hầm mộ, khu chế tác, miếu Ông
+                                Đá, miếu Thổ thần cùng những công trình phụ trợ
+                                phục vụ việc bảo vệ và giới thiệu di tích.
+                            </p>
+                            <p class="mb-6">
+                                Việc tu bổ, tôn tạo không chỉ hướng đến việc giữ
+                                gìn những dấu tích vật chất còn lại, mà còn tạo
+                                điều kiện để người dân và khách tham quan tiếp
+                                cận, tìm hiểu giá trị của di tích. Đặc biệt, khu
+                                hầm mộ và khu chế tác được giới thiệu như hai bộ
+                                phận có mối liên hệ chặt chẽ, giúp người xem
+                                hiểu hơn về cả công trình mộ đá lẫn hoạt động
+                                chế tác gắn với nó.
+                            </p>
+                            <p class="mb-6">
+                                Trong quá trình bảo tồn, một vấn đề quan trọng
+                                là phải giữ được những đặc điểm gốc của di tích.
+                                Khu hầm mộ hiện vẫn giữ được cấu trúc cơ bản
+                                được ghi nhận từ lần phát hiện năm 1927. Các tấm
+                                đan đá hoa cương, những trụ đá và dấu tích gia
+                                công tiếp tục là những tư liệu trực quan giúp
+                                các nhà nghiên cứu tìm hiểu về kỹ thuật xây dựng
+                                của người xưa.
+                            </p>
+                            <p class="mb-6">
+                                Những nỗ lực này cho thấy bảo tồn di sản không
+                                chỉ là giữ lại một địa điểm để tham quan. Quan
+                                trọng hơn, đó là quá trình gìn giữ những bằng
+                                chứng lịch sử, khảo cổ để các thế hệ sau vẫn có
+                                cơ hội tiếp tục nghiên cứu và tìm hiểu.
+                            </p>
+                        </section>
+
+                        <blockquote
+                            class="my-12 border-l-[6px] border-star bg-kraft px-7 py-8 font-serif text-2xl italic leading-[1.5] text-oxblood"
+                        >
+                            “Những dấu tích còn lại từ hàng nghìn năm trước
+                            không chỉ kể về một ngôi mộ đá, mà còn giúp chúng ta
+                            hiểu thêm về trí tuệ, kỹ thuật và sức lao động của
+                            con người trên vùng đất Đồng Nai.”
+                        </blockquote>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                23/12/2015 – Dấu mốc Di tích quốc gia đặc biệt
+                            </h2>
+                            <p class="mb-6">
+                                Sau nhiều năm được nghiên cứu và bảo tồn, Mộ Cự
+                                thạch Hàng Gòn đã được ghi nhận ở cấp độ cao hơn
+                                trong hệ thống di tích của Việt Nam. Ngày
+                                23/12/2015, Thủ tướng Chính phủ ban hành Quyết
+                                định số 2367/QĐ-TTg về việc xếp hạng di tích
+                                quốc gia đặc biệt đợt 6. Trong danh sách này có
+                                Di tích khảo cổ Mộ Cự thạch Hàng Gòn, thuộc thị
+                                xã Long Khánh, tỉnh Đồng Nai lúc bấy giờ.
+                            </p>
+                            <p class="mb-6">
+                                Đây là sự ghi nhận quan trọng đối với giá trị
+                                lịch sử, văn hóa và khoa học của di tích. Công
+                                trình mộ đá với sáu tấm đá hoa cương ghép thành
+                                hình hộp chữ nhật, cùng hệ thống trụ đá xung
+                                quanh, là một kiến trúc cự thạch có quy mô và
+                                hình thức đặc biệt. Những phát hiện tại khu chế
+                                tác càng góp phần làm phong phú thêm tư liệu về
+                                di tích.
+                            </p>
+                            <p class="mb-6">
+                                Mộ Cự thạch Hàng Gòn còn gắn với sinh hoạt tín
+                                ngưỡng của người dân địa phương qua tục thờ Ông
+                                Đá. Hằng năm, lễ cúng Ông Đá được tổ chức tại di
+                                tích, thể hiện mong ước về cuộc sống bình an,
+                                mưa thuận gió hòa và mùa màng tốt tươi. Điều đó
+                                cho thấy di tích không chỉ có ý nghĩa đối với
+                                nghiên cứu khảo cổ, mà còn hiện diện trong đời
+                                sống văn hóa của cộng đồng.
+                            </p>
+                            <p class="mb-6">
+                                Từ một phát hiện khảo cổ vào năm 1927, qua những
+                                nghiên cứu tiếp nối và phát hiện khu chế tác năm
+                                1995, Mộ Cự thạch Hàng Gòn đã dần được nhận diện
+                                với đầy đủ hơn những giá trị vốn có. Quyết định
+                                xếp hạng năm 2015 là một dấu mốc quan trọng
+                                trong hành trình ấy, đồng thời đặt ra trách
+                                nhiệm tiếp tục gìn giữ và phát huy di sản cho
+                                hôm nay và mai sau.
+                            </p>
+                        </section>
+
+                        <section class="mb-14">
+                            <h2
+                                class="mb-6 border-l-[8px] border-star pl-4 font-display text-[2rem] font-extrabold uppercase leading-[1.08] text-oxblood"
+                            >
+                                Giá trị còn lại với các thế hệ hôm nay
+                            </h2>
+                            <p class="mb-6">
+                                Nhìn lại chặng đường từ năm 1995 đến năm 2015,
+                                điều đáng chú ý không chỉ là một khu chế tác
+                                được phát hiện hay một quyết định xếp hạng được
+                                ban hành. Đó còn là quá trình nhiều thế hệ nhà
+                                nghiên cứu, cán bộ bảo tồn và người dân cùng góp
+                                phần tìm hiểu, gìn giữ một di sản có giá trị đặc
+                                biệt.
+                            </p>
+                            <p class="mb-6">
+                                Mộ Cự thạch Hàng Gòn giúp chúng ta hình dung
+                                phần nào về khả năng lao động và kỹ thuật của cư
+                                dân cổ. Việc vận chuyển, gia công và lắp ghép
+                                những phiến đá hoa cương có kích thước lớn chắc
+                                chắn đòi hỏi sự hiểu biết, tính toán và phối hợp
+                                của nhiều người. Dù còn những vấn đề chưa được
+                                giải đáp hoàn toàn, chính những bí ẩn ấy khiến
+                                di tích tiếp tục có giá trị đối với nghiên cứu
+                                khảo cổ.
+                            </p>
+                            <p class="mb-6">
+                                Với người trẻ Đồng Nai, tìm hiểu Mộ Cự thạch
+                                Hàng Gòn cũng là một cách để nhận ra rằng lịch
+                                sử không chỉ được lưu giữ trong sách vở. Ngay
+                                trên vùng đất mình đang sống, vẫn có những công
+                                trình và dấu tích từ hàng nghìn năm trước đang
+                                chờ được khám phá. Khi hiểu hơn về những di sản
+                                ấy, chúng ta cũng có thêm lý do để trân trọng và
+                                có trách nhiệm với quê hương.
+                            </p>
+                        </section>
+
+                        <div
+                            class="rays mb-14 border-2 border-umber p-8 text-ivory shadow-[6px_6px_0_#392821] lg:p-10"
+                        >
+                            <h2
+                                class="font-display text-2xl font-bold uppercase text-star"
+                            >
+                                Lời kết
+                            </h2>
+                            <p class="mt-4 font-serif text-xl italic leading-9">
+                                Từ phát hiện khu chế tác năm 1995 đến dấu mốc
+                                được xếp hạng Di tích quốc gia đặc biệt năm
+                                2015, Mộ Cự thạch Hàng Gòn đã trải qua một hành
+                                trình dài của nghiên cứu và bảo tồn. Những phiến
+                                đá, dấu tích gia công và công trình mộ cổ vẫn
+                                đang kể câu chuyện về trí tuệ, sức lao động của
+                                con người từ hàng nghìn năm trước. Giữ gìn di
+                                tích hôm nay không chỉ là bảo vệ một công trình
+                                khảo cổ, mà còn là cách để chúng ta trân trọng
+                                những giá trị mà các thế hệ trước đã để lại trên
+                                mảnh đất Đồng Nai.
+                            </p>
+                        </div>
+
+                        <div class="border-t-2 border-umber pt-8 font-sans">
+                            <h2
+                                class="font-display text-2xl font-bold uppercase text-oxblood"
+                            >
+                                Nguồn tham khảo
+                            </h2>
+                            <ol
+                                class="mt-5 list-decimal space-y-3 pl-5 text-sm leading-6 text-umber/80"
+                            >
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://dsvh.gov.vn/di-tich-khao-co-mo-cu-thach-hang-gon-1285"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Cục Di sản văn hóa – Di tích khảo cổ Mộ
+                                        Cự thạch Hàng Gòn.</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://chinhphu.vn/default.aspx?docid=182700&pageid=27160"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Cổng thông tin điện tử Chính phủ –
+                                        Quyết định số 2367/QĐ-TTg ngày
+                                        23/12/2015 về việc xếp hạng di tích quốc
+                                        gia đặc biệt.</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://hanggon.dongnai.gov.vn/vi/news/van-hoa-xa-hoi/di-tich-khao-co-mo-cu-thach-hang-gon-113.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >UBND phường Hàng Gòn – Di tích khảo cổ
+                                        Mộ Cự thạch Hàng Gòn (22/07/2025).</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://baotanglichsuquocgia.vn/vi/Articles/2001/62393/phat-hien-xuong-che-tac-dja-cua-nguoi-tien-su-o-djong-nai.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Bảo tàng Lịch sử Quốc gia – Phát hiện
+                                        xưởng chế tác đá của người tiền sử ở
+                                        Đồng Nai (05/01/2009).</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="break-all underline decoration-bronze underline-offset-4 hover:text-brick"
+                                        href="https://baotanglichsuquocgia.vn/vi/Articles/3127/12626/bi-an-mo-co-hang-gon.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >Bảo tàng Lịch sử Quốc gia – Bí ẩn mộ cổ
+                                        Hàng Gòn (04/10/2012).</a
+                                    >
+                                </li>
+                            </ol>
+                            <p class="mt-4 text-xs leading-6 text-umber/60"></p>
+                        </div>
+
+                        <div class="mt-12 flex flex-wrap gap-5 font-sans">
+                            <a href="story_2.html" class="btn btn-paper">
+                                <i class="fa-solid fa-arrow-left"></i>
+                                Câu chuyện trước
+                            </a>
+                            <a
+                                href="../index.html#cau-chuyen"
+                                class="btn btn-brick"
+                                >Danh sách câu chuyện</a
+                            >
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-umber text-ivory/80">
+            <div class="mx-auto max-w-7xl px-5 pt-16 lg:px-8">
+                <p
+                    class="font-display text-[clamp(2.6rem,9vw,7.5rem)] font-extrabold uppercase leading-[1.02] text-transparent [-webkit-text-stroke:2px_#C49A60]"
+                >
+                    Uống nước nhớ nguồn
+                </p>
+            </div>
+            <div
+                class="mx-auto grid max-w-7xl gap-12 px-5 py-14 md:grid-cols-12 lg:px-8"
+            >
+                <div class="md:col-span-5">
+                    <a
+                        href="../../index.html"
+                        class="inline-flex items-center gap-3"
+                    >
+                        <span
+                            class="grid size-11 place-items-center rounded-full border-2 border-star bg-brick text-xl text-star"
+                            ><i class="fa-solid fa-star"></i
+                        ></span>
+                        <span class="leading-none">
+                            <span
+                                class="block font-display text-3xl font-extrabold"
+                                >ĐỊA CHỈ ĐỎ</span
+                            >
+                            <span
+                                class="mt-1 inline-block bg-star px-2 py-0.5 font-display text-xs font-bold tracking-[.32em] text-umber"
+                                >ĐỒNG NAI</span
+                            >
+                        </span>
+                    </a>
+                    <p class="mt-6 max-w-sm text-sm leading-7">
+                        Dự án số hóa và lan tỏa giá trị lịch sử của các di tích,
+                        địa danh cách mạng trên địa bàn tỉnh Đồng Nai, đến gần
+                        hơn với thế hệ trẻ.
+                    </p>
+                </div>
+                <div class="md:col-span-3">
+                    <h2 class="font-display text-xl font-bold text-star">
+                        Khám phá
+                    </h2>
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li>
+                            <a class="hover:text-star" href="../../index.html"
+                                >Trang chủ</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="../../index.html#dia-chi"
+                                >Các địa chỉ đỏ</a
+                            >
+                        </li>
+                        <li>
+                            <a class="hover:text-star" href="../../map.html"
+                                >Bản đồ</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:col-span-4">
+                    <h2 class="font-display text-xl font-bold text-star">
+                        Nguồn tư liệu
+                    </h2>
+                    <ul class="mt-5 space-y-3 text-sm">
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="https://dsvh.gov.vn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Cục Di sản văn hóa
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="https://hanggon.dongnai.gov.vn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >UBND phường Hàng Gòn
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                class="hover:text-star"
+                                href="https://baotanglichsuquocgia.vn"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Bảo tàng Lịch sử Quốc gia
+                                <i
+                                    class="fa-solid fa-arrow-up-right-from-square ml-1 text-[10px]"
+                                ></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="mt-6 text-xs leading-6 text-ivory/55"></p>
+                </div>
+            </div>
+            <div class="border-t border-bronze/25">
+                <p
+                    class="mx-auto max-w-7xl px-5 py-6 text-xs text-ivory/55 lg:px-8"
+                >
+                    © 2026 Địa Chỉ Đỏ Đồng Nai. Dự án số hóa và lan tỏa giá trị
+                    lịch sử.
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            (function () {
+                const header = document.getElementById("site-header");
+                const progress = document.getElementById("progress");
+
+                function onScroll() {
+                    header.classList.toggle("is-scrolled", window.scrollY > 24);
+                    const max =
+                        document.documentElement.scrollHeight -
+                        window.innerHeight;
+                    progress.style.width =
+                        (max > 0
+                            ? Math.min(100, (window.scrollY / max) * 100)
+                            : 0) + "%";
+                }
+
+                onScroll();
+                window.addEventListener("scroll", onScroll, { passive: true });
+
+                const btn = document.getElementById("menu-btn");
+                const menu = document.getElementById("mobile-menu");
+
+                btn.addEventListener("click", () => {
+                    const open = menu.classList.toggle("hidden") === false;
+                    btn.setAttribute("aria-expanded", String(open));
+                    btn.setAttribute(
+                        "aria-label",
+                        open ? "Đóng menu" : "Mở menu",
+                    );
+                    btn.querySelector("i").className = open
+                        ? "fa-solid fa-xmark"
+                        : "fa-solid fa-bars";
+                });
+
+                menu.querySelectorAll("a").forEach((a) =>
+                    a.addEventListener("click", () => {
+                        menu.classList.add("hidden");
+                        btn.setAttribute("aria-expanded", "false");
+                        btn.querySelector("i").className = "fa-solid fa-bars";
+                    }),
+                );
+
+                const tabbar = document.getElementById("tabbar");
+                const current = tabbar.querySelector('[aria-current="page"]');
+
+                if (current)
+                    tabbar.scrollLeft = Math.max(
+                        0,
+                        current.offsetLeft -
+                            tabbar.clientWidth / 2 +
+                            current.offsetWidth / 2,
+                    );
+
+                const fallback =
+                    "data:image/svg+xml;charset=UTF-8," +
+                    encodeURIComponent(
+                        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"><rect width="800" height="500" fill="#54251F"/><rect x="30" y="30" width="740" height="440" fill="none" stroke="#C49A60" stroke-width="2"/><text x="400" y="245" fill="#E8B64C" font-family="Georgia" font-size="30" text-anchor="middle">Tư liệu ảnh đang được cập nhật</text></svg>',
+                    );
+
+                document.querySelectorAll("img").forEach((img) =>
+                    img.addEventListener("error", () => {
+                        if (!img.dataset.fallback) {
+                            img.dataset.fallback = "1";
+                            img.src = fallback;
+                        }
+                    }),
+                );
+            })();
+        </script>
+    </body>
+</html>
